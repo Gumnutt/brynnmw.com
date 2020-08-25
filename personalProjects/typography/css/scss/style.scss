@@ -1,0 +1,19 @@
+/*
+	Theme Name: Brynn McGarry-Watson
+	Theme URI: http://brynnmw.com
+	Description: Responsive theme designed & developed by Brynn McGarry-Watson
+*/
+// Every Project DO NOT DELETE
+@import "compass";
+@import "normalize";
+@import "variables";
+@import "mixins/clearfix";
+@import "mixins/grid-framework";
+@import "mixins/grid";
+@import "grid";
+//@import "defaultstyles";
+@import "typography";
+//@import "reset";
+
+// Sheets custom to every project
+@import "demo";

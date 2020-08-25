@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title id="pgtitle">The Solar System</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>   
+        <script type="text/javascript" src="js/pxmoon.js"></script>
+</head>
+
+<body>
+
+<div id="introwrap">
+<div id="titlecard">
+  <h4>Our Solar System is full of big and wonderful things. Planets with rings, an ocean planet and so much more.
+    <br /><br />Below is scaled model of our Solar System. The reference point is the moon, except in this case the moon is 1 pixel.
+    <br /><br />Scroll down to explore or Solar System</h4>
+</div>
+
+<div id="bigspace">
+  <div class="planetwrapper">
+  <!-- Sun-->
+  <div id="sunwrap">
+    <svg version="1.1" id="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="suntxt" class="labeltext">Sun</div>
+  </div>
+
+  <!-- Mercury-->
+
+    <svg version="1.1" id="mercury" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="merctxt" class="labeltext">
+      <img src="img/arrow.svg">
+      <span id="merclabel">Mercury</span><br/>
+    </div>
+
+
+  <!-- Venus-->
+    <svg version="1.1" id="venus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="venustxt" class="labeltext">
+      <img src="img/arrow.svg">
+      <span id="venuslabel">Venus</span>
+    </div>
+
+  <!-- Earth-->
+    <svg version="1.1" id="earth" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="earthtxt" class="labeltext">
+      <img src="img/arrow.svg">
+      <span id="earthlabel">Earth</span><br/>
+      <div id="you-are-here" style="font-size:.3em; color:#737373">You Are Here</div>
+    </div>
+
+  <!-- Moon-->
+    <div id="moontxt" class="labeltext">
+      <span id="moonlabel">Moon</span><br/>
+      <img src="img/arrow2.svg">
+    </div>
+    <svg version="1.1" id="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+
+  <!-- Mars-->
+    <svg version="1.1" id="mars" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="marstxt" class="labeltext">
+      <img src="img/arrow.svg"><br/>
+      <span id="marslabel">Mars</span>
+    </div>
+
+  <!-- Jupiter-->
+    <svg version="1.1" id="jupiter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="jupitertxt" class="labeltext">
+      <img src="img/arrow.svg" style="margin-left:15px"><br/>
+      <span id="jupiterlabel">Jupiter</span>
+    </div>
+  <!--Jupiter Moons -->
+    <div id="jupitermoons" class="labeltext">
+      <span id="io">
+        <img src="img/moondot.png" height="1px" width="1px" class="moondot">
+        <span id="iolabel">Io</span>
+      </span>
+      <span id="europa">
+        <img src="img/moondot.png" height="1px" width="1px" class="moondot">
+        <span id="europalabel">Europa</span>
+      </span>
+      <span id="ganymede">
+        <img src="img/moondot.png" height="2px" width="2px" class="moondot">
+        <span id="ganymedelabel">Ganymede</span>
+      </span>
+      <span id="callisto">
+        <img src="img/moondot.png" height="1px" width="1px" class="moondot">
+        <span id="callistolabel">Callisto</span>
+      </span>
+    </div>
+
+  <!-- Saturn-->
+    <img src="img/saturn.svg" id="saturn"><br/>
+    <div id="saturntxt" class="labeltext">
+      <img src="img/arrow.svg"><br/>
+      <span id="saturnlabel">Saturn</span>
+    </div>
+
+  <!--Titan  -->
+  <div id="saturnmoons" class="labeltext">
+    <span id="titan">
+      <img src="img/moondot.png" height="1px" width="1px" class="moondot">
+      <span id="titanlabel">Titan</span>
+    </span>
+  </div>
+
+  <!-- Uranus -->
+    <svg version="1.1" id="uranus" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="uranustxt" class="labeltext">
+      <img src="img/arrow.svg"><br/>
+      <span id="uranuslabel">Uranus</span>
+    </div>
+
+  <!-- Neptune -->
+    <svg version="1.1" id="neptune" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="neptunetxt" class="labeltext">
+      <img src="img/arrow.svg"><br/>
+      <span id="neptunelabel">Neptune</span>
+    </div>
+
+  <!-- Pluto -->
+    <svg version="1.1" id="pluto" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    width="10px" height="10px" viewBox="0 0 10 10">
+    <circle cx="5" cy="5" r="5"></circle>
+    </svg>
+    <div id="plutotxt" class="labeltext">
+      <img src="img/arrow.svg"><br/>
+      <span id="plutolabel">Pluto</span><span style="font-size:.25em"><br/></span>
+      <span id="we-still-love" style="font-size:.25em; text-transform:none">(we still love you)</span>
+    </div>
+
+    <ul class="nav">
+      <li><a href="#suntxt" class="planetjump"><img src="img/sun_icon.svg"></a></li>
+      <li><a href="#merctxt" class="planetjump"><img src="img/mercury_icon.svg"></a></li>
+      <li><a href="#venustxt" class="planetjump"><img src="img/venus_icon.svg"></a></li>
+      <li><a href="#earthtxt" class="planetjump"><img src="img/earth_icon.svg"></a></li>
+      <li><a href="#marstxt" class="planetjump"><img src="img/mars_icon.svg"></a></li>
+      <li><a href="#jupitertxt" class="planetjump"><img src="img/jupiter_icon.svg"></a></li>
+      <li><a href="#saturntxt" class="planetjump"><img src="img/saturn_icon.svg"></a></li>
+      <li><a href="#uranustxt" class="planetjump"><img src="img/uranus_icon.svg"></a></li>
+      <li><a href="#neptunetxt" class="planetjump"><img src="img/neptune_icon.svg"></a></li>
+      <li><a href="#plutotxt" class="planetjump"><img src="img/pluto_icon.svg"></a></li>
+    </ul>
+    <div id="distance-counter"><div id="counter">0km</div>
+      <div id="unitselect">
+        <ul>
+          <li><a href="" id="km">km</a></li>
+          <li><a href="" id="mi">mi</a></li>
+          <li><a href="" id="au">AU</a></li>
+          <li><a href="" id="lightminutes">Light Minutes</a></li>
+          <li><a href="" id="earths">Earths</a></li>
+          <li><a href="" id="pixels">Pixels</a></li>
+          <li><a href="" id="buses">Buses</a></li>
+          <li><a href="" id="bluewhales">Blue Whales</a></li>
+          <li><a href="" id="greatwalls">Great Walls of China</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(function() {
+    $('ul.nav a').bind('click',function(event){
+      var $anchor = $(this);
+
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+      }, 2000,'easeInOutQuint');
+      /*
+      if you don't want to use the easing effects:
+      $('html, body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top
+      }, 1000);
+      */
+      event.preventDefault();
+    });
+  });
+</script>
+
+</body>
+</html>

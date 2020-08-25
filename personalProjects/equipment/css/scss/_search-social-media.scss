@@ -1,0 +1,54 @@
+.search-social-media{
+	background: #333;
+	width:100%;
+	float: left;
+	.social-media{
+		.facebook, .linkedin, .youtube{
+			text-shadow: none;
+			position: relative;
+			color: transparent;
+			border: none;
+			padding: 0 10px;
+			line-height:53px;
+			color: white;
+			&:before{
+				font-family: FontAwesome;
+				font-size: 1.5em;
+			}
+			span{
+				text-indent: -9999px;
+   			display: none;
+			}
+		}
+		.facebook{
+			&:before{
+				content:$fa-var-facebook;
+			}
+		}
+		.linkedin{
+			&:before{
+				content:$fa-var-linkedin;
+			}
+		}
+		.youtube{
+			&:before{
+				content:$fa-var-youtube;
+			}
+		}
+	}
+	.search{
+		input[type=search]{
+			-webkit-appearance: none;
+			-moz-appearance: none;
+			appearance: none;
+			border:none;
+			outline:none;
+			background: #222;
+			color:#fff;
+			padding:17px 5px;
+			width:100%;
+			font-size:1em;
+			font-weight:100;
+		}
+	}
+}

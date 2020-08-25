@@ -1,0 +1,223 @@
+.virtual-page{
+  min-height:50vh;
+  background:$virtual-black-alpha, url(../../img/shbam-bg.jpg);
+  @include cover-image-background;
+  position:relative;
+  .title-section{
+    color:$virtual-contrast-color;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    //@include fadeIn( 3s );
+    h1, h3{
+      color: inherit;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: $virtual-heading-letter-spacing;
+      text-align:center;
+      border-bottom:1px solid $virtual-contrast-color;
+      span{
+        letter-spacing:normal;
+        color: inherit;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size:inherit;
+      }
+    }
+    h1{
+      padding-bottom: 30px;
+      width:100%;
+    }
+    h3{
+      border: none;
+    }
+    hr{
+      background-color: $virtual-contrast-color;
+      width:30px;
+      margin:0 auto;
+    }
+  }
+}
+
+.virtual-info-container{
+  .virtual-what-is{
+    background:$virtual-contrast-color;
+    padding:50px 0;
+    box-sizing: border-box;
+    .text-container{
+      color: $virtual-black;
+      width:85%;
+      margin:0 auto;
+      h2{
+        @include virtual-h2-style;
+      }
+      p{
+        @include virtual-p-style;
+      }
+    }
+  }
+  .virtual-benifits-section{
+    background:$virtual-contrast-color;
+    padding:50px 0;
+    box-sizing: border-box;
+    .text-container{
+      color: $virtual-black;
+      width:85%;
+      margin:0 auto;
+      h2{
+        @include virtual-h2-style;
+      }
+      p, li{
+        @include virtual-p-style;
+      }
+      h2{
+        text-transform: uppercase;
+        letter-spacing: $virtual-letter-spacing;
+        text-align:center;
+      }
+      ol{
+        max-width: 700px;
+        margin:0 auto;
+        li{
+          //list-style: none;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
+
+.virtual-cta-section{
+  background:$virtual-black;
+  border-bottom:2px solid $virtual-contrast-color;
+  .virtual-cta-container{
+    .row{
+      a{
+        display:inline-block;
+        box-sizing:border-box;
+        text-align: center;
+        padding:35px 0;
+        color: $virtual-contrast-color;
+        text-transform: uppercase;
+        &:nth-child(1){
+          border-bottom:1px solid $virtual-contrast-color;
+        }
+        @media(min-width: $screen-md-min){
+          &:nth-child(1){
+            border-right:1px solid $virtual-contrast-color;
+            border-bottom: none;
+          }
+          &:nth-child(2){
+            border-left:1px solid $virtual-contrast-color;
+          }
+        }
+        &:hover{
+          background: lighten($virtual-black, 10%);
+        }
+      }
+    }
+  }
+}
+
+.virtual-logos{
+  background: $virtual-black;
+  color: $virtual-contrast-color;
+  h2{
+    @include virtual-h2-style; 
+  }
+  .logo-row{
+    .logo{
+      background-color: $virtual-black;
+      padding: 40px 0;
+      img{
+        margin:0 auto;
+        max-height:50px;
+      }
+      &:hover{
+        background: lighten($virtual-black, 30%);
+      }
+    }
+    &:nth-child(1){
+      .logo{
+        border-bottom:3px solid $virtual-contrast-color;
+      }
+    }
+  }
+}
+
+
+.virtual-video-section{
+  background:$virtual-contrast-color-alpha, url(../../img/shbam-bg.jpg);
+  @include cover-image-background;
+  padding:40px 0;
+  .video-container{
+    float:left;
+    width:100%;
+    position:relative;
+    height:300px;
+    overflow:hidden;    
+    .text-container{
+      position:absolute;
+      left:0;
+      right:0;
+      text-align:center;
+      top:50%;
+      transform:translateY(-50%);
+      h2{
+        @include virtual-h2-style;
+        border:none;
+      } 
+      .play-btn{
+        color:$virtual-black;
+        text-transform:uppercase;
+        font-size:1.8em;
+        font-weight:900;
+        display:block;
+        &:before{
+          content:"";
+          background:url('../../svg/play.svg');
+          display:block;
+          margin:0 auto;
+          width:100px;
+          height:100px;
+        }
+      }
+    }
+  }
+}
+
+.virtual-get-started-section{
+  background:$virtual-black-alpha, url(../../img/shbam-bg.jpg);
+  @include cover-image-background;
+  color: $virtual-contrast-color;
+  h2{
+    @include virtual-h2-style;
+  }
+  .starting-container{
+    padding:50px 0;
+    .text-container{
+      width:80%;
+      min-width:300px;
+      margin:0 auto;
+      border: 3px solid $virtual-contrast-color;
+      padding:20px;
+      h2{
+        @include virtual-h2-style;
+        border: none;
+      }
+      p{
+        @include virtual-p-style;
+      }
+      
+      &:hover{
+        background: $virtual-contrast-color;
+        h2, p{
+          color: $virtual-black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.half-width{
+    width:100%;
+    padding:0 10px;
+    float:left;
+    @media (min-width: $screen-md-min){
+      width:48%;
+    }
+}
+.full-width{
+  width:100%;
+  margin:0 auto;
+  max-width:600px;
+}

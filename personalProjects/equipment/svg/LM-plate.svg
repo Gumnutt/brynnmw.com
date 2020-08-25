@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 475 468" style="enable-background:new 0 0 475 468;" xml:space="preserve">
+<style type="text/css">
+	.svg-path{
+		fill:none;
+		stroke-miterlimit:10;
+		stroke-width:3px;
+	}
+	.dark{
+		stroke:#272727;
+	}
+	.light{
+		stroke:#efefef;
+	}
+	.detail{
+		stroke:#efefef;
+		stroke-width:2px;
+	}
+	.fill-animate{
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+		animation-name: FillIn;
+		animation-duration: 1s;
+		animation-delay: 2s;
+		fill-opacity: 0;
+	}
+	.red{
+		fill:#fb4e3e;
+	}
+	@keyframes FillIn {
+	  from { fill-opacity: 0; }
+	  to { fill-opacity: 1; }
+	}
+</style>
+
+
+<path class="svg-path light detail" d="M138.2,359.1C100,359.1,70,329.3,70,234s30-125.1,68.3-125.1"/>
+<path class="svg-path light detail" d="M132.7,156.3c-15.2,0-30.4,10.7-30.4,77.7s15.2,77.7,30.4,77.7"/>
+<path class="svg-path light detail" d="M336.8,359.1c38.3,0,68.3-29.7,68.3-125.1s-30-125.1-68.3-125.1"/>
+<path class="svg-path light detail" d="M342.3,156.3c15.2,0,30.4,10.7,30.4,77.7s-15.2,77.7-30.4,77.7"/>
+<path class="svg-path light fill-animate" d="M473.5,234v7c0,181-76.5,225.5-220,225.5H241h-7h-12.5C78,466.5,1.5,422,1.5,241v-7v-7C1.5,46,78,1.5,221.5,1.5
+	H234h7h12.5c143.5,0,220,44.5,220,225.5C473.5,227,473.5,234,473.5,234z"/>
+<path class="svg-path light" d="M237.5,207.8h98.8c5.9,0,10.8-4.8,10.8-10.8l0,0l-12-103.1c0,0-5.7-54.5-97.5-54.5S140,94,140,94l-12,103.1l0,0
+	c0,5.9,4.8,10.8,10.8,10.8C138.7,207.8,237.5,207.8,237.5,207.8z"/>
+<path class="svg-path light" d="M237.5,260.2h98.8c5.9,0,10.8,4.8,10.8,10.8l0,0l-12,103.1c0,0-5.7,54.5-97.5,54.5S140,374,140,374l-12-103.1
+	l0,0c0-5.9,4.8-10.8,10.8-10.8C138.7,260.2,237.5,260.2,237.5,260.2z"/>
+<path class="svg-path light detail fill-animate red" d="M345.8,27.3L345.8,27.3c6.8,0,60.5,31,79.2,63c15.6,26.7,24.4,78.9,26.9,95.5c0.5,3.3-0.4,6.6-2.3,9.3l-0.7,0.9
+	c-1.3,1.8-3.7,2.4-5.7,1.5l-1.7-0.7c-2.6-1.1-4.5-3.4-5.1-6.2c-3-14.2-13.6-59.2-29.8-85.9c-17.2-28.4-56.2-61.3-64.7-68.3
+	c-1.1-0.9-1.7-2.2-1.7-3.5l0,0C340.3,29.8,342.8,27.3,345.8,27.3z"/>
+<path class="svg-path light detail fill-animate red" d="M129.2,440.7L129.2,440.7c-6.8,0-60.5-31-79.2-63c-15.6-26.7-24.4-78.9-26.9-95.5c-0.5-3.3,0.4-6.6,2.3-9.3
+	l0.7-0.9c1.3-1.8,3.7-2.4,5.7-1.5l1.7,0.7c2.6,1.1,4.5,3.4,5.1,6.2c3,14.2,13.6,59.2,29.8,85.9c17.2,28.4,56.2,61.3,64.7,68.3
+	c1.1,0.9,1.7,2.2,1.7,3.5l0,0C134.7,438.2,132.2,440.7,129.2,440.7z"/>
+
+</svg>

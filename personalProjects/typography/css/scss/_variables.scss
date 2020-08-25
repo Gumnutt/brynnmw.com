@@ -1,0 +1,89 @@
+	//-------------------------------------------------container width option
+$container-xs  : 90%;
+$container-sm  : 768px;
+$container-md  : 992px;
+$container-lg  : 1200px;
+//-------------------------------------------------media queries options
+$screen-xs-min : 320px;
+$screen-sm-min : 768px;
+$screen-md-min : 801px;
+$screen-lg-min : 1200px;
+//-------------------------------------------------the grid
+$grid-columns: 12;
+$gutter: 20px;
+//-------------------------------------------------background color options
+
+$primary-color: #006098;
+$secondary-color: #0e3d51;
+$mid-color: #666;
+$highlight-color: #efefef;
+$background-color: #fff;
+$grey-background-color: #f2f0f0;
+$light-grey-background-color: #e2e3e5;
+$feature-color:#8A8F64;
+
+
+//-------------------------------------------------dark border on light bg
+
+$dark-link-btn-border:#666666;
+// light border on dark bg
+$light-link-btn-border:#cccccc;
+// link btn with arrow icon on dark background color. i.e. home cta, event listing, map about.
+$dark-link-btn-font: darken(#ffffff, 10%);
+$slider-height-lg: 550px;
+
+//-------------------------------------------------typography
+
+//$font-family: 'Lato', sans-serif;
+//$pageheader-font-size:5em;
+$font-size: 16px;
+$em: $font-size / 1em;
+//$header-font-size:36px;
+$nav-font-size:16px;
+$body-font-size:16px;
+$body-font-weight:300;
+$nav-font-weight:500;
+//$header-font-weight:500;
+$dark-body-color: #666;
+$light-body-color:#fff;
+$table-feature-color:rgba(191,4,38,0.05);
+
+//------------------------------------------------- Slider Variables
+
+$slider-height-lg: 650px;
+$slider-height-md: 325px;
+$slider-width-lg: $screen-lg-min;
+$slider-width-md: $screen-md-min;
+$slider-width-sm: $screen-sm-min;
+$slider-width-xs: $screen-xs-min;
+
+//------------------------------------------------- Grid Gallery Variables
+
+$grid-gallery-lg-slide-width: 20%;
+$grid-gallery-md-slide-width: 33.3333%;
+$grid-gallery-sm-slide-width: 50%;
+
+//-------------------------------------------------heights1 & line heights1
+
+$subnav-height:40px;
+$banner-height:115px;
+$footer-height:90px;
+// $header-height:150px;
+
+// @mixin full-bg{
+// 	height:calc(100vh - #{$header-height});
+// }
+
+//-------------------------------------------------General Variables
+
+$radius-reg: 5px;
+
+//-------------------------------------------------clearfix mixin
+
+@mixin cf {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

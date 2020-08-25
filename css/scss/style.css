@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700,900");
+/* line 2, _bio.scss */
+html, body {
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent !important;
+  cursor: url(../img/cursor1x.png) 6 6, default;
+  cursor: -webkit-image-set(url(../../img/cursor1x.png) 1x, url(../../img/cursor2x.png) 2x) 6 6, default;
+}
+
+/* line 8, _bio.scss */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.666667;
+}
+
+/* line 13, _bio.scss */
+h1, h2, p, a {
+  color: #2d2d2d;
+}
+
+/* line 16, _bio.scss */
+a {
+  font-weight: 700;
+  cursor: url(../img/cursor-fill1x.png) 6 6, auto;
+  cursor: -webkit-image-set(url(../../img/cursor-fill1x.png) 1x, url(../../img/cursor-fill2x.png) 2x) 6 6, auto;
+}
+
+/* line 21, _bio.scss */
+.hidden {
+  display: none;
+}
+
+/* line 24, _bio.scss */
+.content {
+  position: relative;
+}
+
+/* line 27, _bio.scss */
+.title {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  transition: background-color 0.5s ease;
+}
+@media (min-width: 768px) {
+  /* line 27, _bio.scss */
+  .title {
+    width: 50%;
+  }
+}
+/* line 38, _bio.scss */
+.title h1 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1;
+}
+
+/* line 45, _bio.scss */
+.icons {
+  margin: 0;
+  color: #1c1c1c;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 20%;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  /* line 45, _bio.scss */
+  .icons {
+    flex-direction: column;
+    width: 10%;
+    left: 0;
+    bottom: auto;
+  }
+}
+/* line 62, _bio.scss */
+.icons a {
+  color: currentColor;
+  width: 20%;
+}
+@media (min-width: 768px) {
+  /* line 62, _bio.scss */
+  .icons a {
+    width: 100%;
+  }
+}
+/* line 69, _bio.scss */
+.icons .icon {
+  display: inline-block;
+  height: 1.5rem;
+  fill: currentColor;
+  padding: 0.5em 0;
+  width: 100%;
+}
+/* line 75, _bio.scss */
+.icons .icon:hover {
+  color: #ffcc00;
+}
+
+/* line 81, _bio.scss */
+.about-me {
+  top: 100vh;
+  position: relative;
+  min-height: 100vh;
+  padding: 7%;
+  background: #ffffff;
+}
+@media (min-width: 768px) {
+  /* line 81, _bio.scss */
+  .about-me {
+    width: 40%;
+    padding: 5%;
+    position: absolute;
+    right: 0;
+    padding-top: 0;
+  }
+  /* line 93, _bio.scss */
+  .about-me h2 {
+    font-size: 2.25em;
+    margin-bottom: 10%;
+    margin-top: 0;
+  }
+  /* line 98, _bio.scss */
+  .about-me p {
+    font-size: 1.25em;
+  }
+}
+/* line 102, _bio.scss */
+.about-me h2 {
+  font-weight: 700;
+}
+
+/* line 107, _bio.scss */
+.animate {
+  -webkit-animation: animate 1.8s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation: animate 1.8s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation: animate 1.8s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode: backwards;
+  -moz-animation-fill-mode: backwards;
+  animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes animate {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/* line 136, _bio.scss */
+.dark {
+  background: #1c1c1c;
+  color: #f2f2f2;
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent !important;
+  cursor: url(../img/cursor1x-light.png) 6 6, default;
+  cursor: -webkit-image-set(url(../../img/cursor1x-light.png) 1x, url(../../img/cursor2x-light.png) 2x) 6 6, default;
+}
+/* line 143, _bio.scss */
+.dark h1 {
+  color: inherit;
+}
+/* line 146, _bio.scss */
+.dark .icons {
+  color: #f2f2f2;
+}

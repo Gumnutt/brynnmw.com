@@ -1,0 +1,2341 @@
+/*
+	Theme Name: Brynn McGarry-Watson
+	Theme URI: http://brynnmw.com
+	Description: Responsive theme designed & developed by Brynn McGarry-Watson
+*/
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 3, css/scss/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary,
+iframe,
+img {
+  display: block;
+}
+
+/* line 20, css/scss/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 28, css/scss/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 33, css/scss/_normalize.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 39, css/scss/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 45, css/scss/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 50, css/scss/_normalize.scss */
+a {
+  background: transparent;
+}
+
+/* line 54, css/scss/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 60, css/scss/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 64, css/scss/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 69, css/scss/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 73, css/scss/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 78, css/scss/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 83, css/scss/_normalize.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 87, css/scss/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 95, css/scss/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 99, css/scss/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 104, css/scss/_normalize.scss */
+img {
+  border: 0;
+}
+
+/* line 108, css/scss/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 113, css/scss/_normalize.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 117, css/scss/_normalize.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 123, css/scss/_normalize.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 127, css/scss/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 136, css/scss/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 146, css/scss/_normalize.scss */
+button {
+  overflow: visible;
+}
+
+/* line 150, css/scss/_normalize.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 155, css/scss/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 163, css/scss/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 168, css/scss/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 174, css/scss/_normalize.scss */
+input {
+  line-height: normal;
+}
+
+/* line 178, css/scss/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 184, css/scss/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 189, css/scss/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 196, css/scss/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 201, css/scss/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 207, css/scss/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 212, css/scss/_normalize.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 216, css/scss/_normalize.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 221, css/scss/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 226, css/scss/_normalize.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 9, css/scss/_grid.scss */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  /* line 9, css/scss/_grid.scss */
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 801px) {
+  /* line 9, css/scss/_grid.scss */
+  .container {
+    width: 992px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 9, css/scss/_grid.scss */
+  .container {
+    width: 1200px;
+  }
+}
+
+/* line 29, css/scss/_grid.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 14, css/scss/mixins/_clearfix.scss */
+.container-fluid:before, .container-fluid:after {
+  content: " ";
+  display: table;
+}
+/* line 19, css/scss/mixins/_clearfix.scss */
+.container-fluid:after {
+  clear: both;
+}
+
+/* line 38, css/scss/_grid.scss */
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+}
+/* line 14, css/scss/mixins/_clearfix.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 19, css/scss/mixins/_clearfix.scss */
+.row:after {
+  clear: both;
+}
+
+/* line 11, css/scss/mixins/_grid-framework.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 27, css/scss/mixins/_grid-framework.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-1 {
+  width: 8.33333%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-2 {
+  width: 16.66667%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-3 {
+  width: 25%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-4 {
+  width: 33.33333%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-5 {
+  width: 41.66667%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-6 {
+  width: 50%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-7 {
+  width: 58.33333%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-8 {
+  width: 66.66667%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-9 {
+  width: 75%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-10 {
+  width: 83.33333%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-11 {
+  width: 91.66667%;
+}
+
+/* line 35, css/scss/mixins/_grid-framework.scss */
+.col-xs-12 {
+  width: 100%;
+}
+
+/* line 55, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-0 {
+  right: auto;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-1 {
+  right: 8.33333%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-2 {
+  right: 16.66667%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-3 {
+  right: 25%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-4 {
+  right: 33.33333%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-5 {
+  right: 41.66667%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-6 {
+  right: 50%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-7 {
+  right: 58.33333%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-8 {
+  right: 66.66667%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-9 {
+  right: 75%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-10 {
+  right: 83.33333%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-11 {
+  right: 91.66667%;
+}
+
+/* line 50, css/scss/mixins/_grid-framework.scss */
+.col-xs-pull-12 {
+  right: 100%;
+}
+
+/* line 45, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-0 {
+  left: auto;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-1 {
+  left: 8.33333%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-2 {
+  left: 16.66667%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-3 {
+  left: 25%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-4 {
+  left: 33.33333%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-5 {
+  left: 41.66667%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-6 {
+  left: 50%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-7 {
+  left: 58.33333%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-8 {
+  left: 66.66667%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-9 {
+  left: 75%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-10 {
+  left: 83.33333%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-11 {
+  left: 91.66667%;
+}
+
+/* line 40, css/scss/mixins/_grid-framework.scss */
+.col-xs-push-12 {
+  left: 100%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-0 {
+  margin-left: 0%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66667%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-3 {
+  margin-left: 25%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66667%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-6 {
+  margin-left: 50%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66667%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-9 {
+  margin-left: 75%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66667%;
+}
+
+/* line 60, css/scss/mixins/_grid-framework.scss */
+.col-xs-offset-12 {
+  margin-left: 100%;
+}
+
+@media (min-width: 768px) {
+  /* line 27, css/scss/mixins/_grid-framework.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-1 {
+    width: 8.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-2 {
+    width: 16.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-3 {
+    width: 25%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-4 {
+    width: 33.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-5 {
+    width: 41.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-6 {
+    width: 50%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-7 {
+    width: 58.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-8 {
+    width: 66.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-9 {
+    width: 75%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-10 {
+    width: 83.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-11 {
+    width: 91.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-sm-12 {
+    width: 100%;
+  }
+
+  /* line 55, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-0 {
+    right: auto;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-1 {
+    right: 8.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-2 {
+    right: 16.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-3 {
+    right: 25%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-4 {
+    right: 33.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-5 {
+    right: 41.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-6 {
+    right: 50%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-7 {
+    right: 58.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-8 {
+    right: 66.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-9 {
+    right: 75%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-10 {
+    right: 83.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-11 {
+    right: 91.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-sm-pull-12 {
+    right: 100%;
+  }
+
+  /* line 45, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-0 {
+    left: auto;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-1 {
+    left: 8.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-2 {
+    left: 16.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-3 {
+    left: 25%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-4 {
+    left: 33.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-5 {
+    left: 41.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-6 {
+    left: 50%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-7 {
+    left: 58.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-8 {
+    left: 66.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-9 {
+    left: 75%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-10 {
+    left: 83.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-11 {
+    left: 91.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-sm-push-12 {
+    left: 100%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 801px) {
+  /* line 27, css/scss/mixins/_grid-framework.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-1 {
+    width: 8.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-2 {
+    width: 16.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-3 {
+    width: 25%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-4 {
+    width: 33.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-5 {
+    width: 41.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-6 {
+    width: 50%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-7 {
+    width: 58.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-8 {
+    width: 66.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-9 {
+    width: 75%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-10 {
+    width: 83.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-11 {
+    width: 91.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-md-12 {
+    width: 100%;
+  }
+
+  /* line 55, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-0 {
+    right: auto;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-1 {
+    right: 8.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-2 {
+    right: 16.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-3 {
+    right: 25%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-4 {
+    right: 33.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-5 {
+    right: 41.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-6 {
+    right: 50%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-7 {
+    right: 58.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-8 {
+    right: 66.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-9 {
+    right: 75%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-10 {
+    right: 83.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-11 {
+    right: 91.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-md-pull-12 {
+    right: 100%;
+  }
+
+  /* line 45, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-0 {
+    left: auto;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-1 {
+    left: 8.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-2 {
+    left: 16.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-3 {
+    left: 25%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-4 {
+    left: 33.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-5 {
+    left: 41.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-6 {
+    left: 50%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-7 {
+    left: 58.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-8 {
+    left: 66.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-9 {
+    left: 75%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-10 {
+    left: 83.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-11 {
+    left: 91.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-md-push-12 {
+    left: 100%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-md-offset-12 {
+    margin-left: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 27, css/scss/mixins/_grid-framework.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-1 {
+    width: 8.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-2 {
+    width: 16.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-3 {
+    width: 25%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-5 {
+    width: 41.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-6 {
+    width: 50%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-7 {
+    width: 58.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-9 {
+    width: 75%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-10 {
+    width: 83.33333%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-11 {
+    width: 91.66667%;
+  }
+
+  /* line 35, css/scss/mixins/_grid-framework.scss */
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  /* line 55, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-0 {
+    right: auto;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-1 {
+    right: 8.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-2 {
+    right: 16.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-3 {
+    right: 25%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-4 {
+    right: 33.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-5 {
+    right: 41.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-6 {
+    right: 50%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-7 {
+    right: 58.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-8 {
+    right: 66.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-9 {
+    right: 75%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-10 {
+    right: 83.33333%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-11 {
+    right: 91.66667%;
+  }
+
+  /* line 50, css/scss/mixins/_grid-framework.scss */
+  .col-lg-pull-12 {
+    right: 100%;
+  }
+
+  /* line 45, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-0 {
+    left: auto;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-1 {
+    left: 8.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-2 {
+    left: 16.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-3 {
+    left: 25%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-4 {
+    left: 33.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-5 {
+    left: 41.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-6 {
+    left: 50%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-7 {
+    left: 58.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-8 {
+    left: 66.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-9 {
+    left: 75%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-10 {
+    left: 83.33333%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-11 {
+    left: 91.66667%;
+  }
+
+  /* line 40, css/scss/mixins/_grid-framework.scss */
+  .col-lg-push-12 {
+    left: 100%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-0 {
+    margin-left: 0%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66667%;
+  }
+
+  /* line 60, css/scss/mixins/_grid-framework.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%;
+  }
+}
+/*------------------------------------*\
+    # Type
+\*------------------------------------*/
+/* line 44, css/scss/_typography.scss */
+*, html, body {
+  font-size: 16px;
+  font-family: "Arvo", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 55, css/scss/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  margin: 36px 0 24px 0;
+  color: #000000;
+  line-height: 1.25em;
+  font-weight: 400;
+}
+
+/* line 62, css/scss/_typography.scss */
+h1 {
+  font-size: 2.5rem;
+}
+
+/* line 66, css/scss/_typography.scss */
+h2 {
+  font-size: 1.92308rem;
+}
+
+/* line 70, css/scss/_typography.scss */
+h3 {
+  font-size: 1.66667rem;
+}
+
+/* line 74, css/scss/_typography.scss */
+h4 {
+  font-size: 1.47059rem;
+}
+
+/* line 78, css/scss/_typography.scss */
+h5 {
+  font-size: 1.38889rem;
+}
+
+/* line 82, css/scss/_typography.scss */
+h6 {
+  font-size: 1.25rem;
+}
+
+/* line 89, css/scss/_typography.scss */
+p {
+  margin-top: 20px;
+  font-size: 1.0625rem;
+  line-height: 1.5em;
+  color: #505050;
+}
+/* line 95, css/scss/_typography.scss */
+p:first-of-type {
+  margin-top: 0;
+}
+
+/* line 103, css/scss/_typography.scss */
+a {
+  color: #4eaff6;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+/* line 108, css/scss/_typography.scss */
+a:hover {
+  color: #1d99f4;
+}
+
+/* line 115, css/scss/_typography.scss */
+ul, ol {
+  margin: 20px 0 0 20px;
+  padding: 0;
+}
+/* line 118, css/scss/_typography.scss */
+ul li, ol li {
+  margin-top: 10px;
+  line-height: 1.5em;
+  color: #505050;
+}
+/* line 124, css/scss/_typography.scss */
+ul ul, ul ol, ol ul, ol ol {
+  margin-top: 0;
+}
+
+/* line 131, css/scss/_typography.scss */
+ul li {
+  list-style: disc;
+}
+/* line 137, css/scss/_typography.scss */
+ul ul li {
+  list-style: circle;
+}
+
+/* line 145, css/scss/_typography.scss */
+ol li {
+  list-style: decimal;
+}
+
+/* line 152, css/scss/_typography.scss */
+hr {
+  height: 1px;
+  margin: 30px 0;
+  border: none;
+  background-color: #DADADA;
+  clear: both;
+}
+
+/* line 162, css/scss/_typography.scss */
+blockquote {
+  margin: 30px 0;
+  font-size: 1.4375rem;
+  line-height: 1.5em;
+  color: #505050;
+  text-align: center;
+  font-style: italic;
+}
+
+/* line 173, css/scss/_typography.scss */
+table {
+  width: 100%;
+  margin: 30px 0;
+  border-collapse: collapse;
+}
+
+/* line 179, css/scss/_typography.scss */
+table, td, th {
+  border: 1px solid #DADADA;
+  text-align: left;
+}
+
+/* line 184, css/scss/_typography.scss */
+th {
+  font-weight: 800;
+}
+
+/* line 188, css/scss/_typography.scss */
+th, td {
+  padding: 15px;
+}
+
+/* line 194, css/scss/_typography.scss */
+figure {
+  margin: 30px 0;
+}
+/* line 197, css/scss/_typography.scss */
+figure img {
+  margin: 0;
+}
+
+/* line 202, css/scss/_typography.scss */
+figcaption {
+  margin-top: 10px;
+  color: #6a6a6a;
+  font-size: 16px;
+}
+
+/* line 210, css/scss/_typography.scss */
+pre {
+  display: block;
+  margin: 0 0 40px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #DADADA;
+  overflow: auto;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 221, css/scss/_typography.scss */
+pre code {
+  position: static;
+  padding: 0;
+  border: none;
+  line-height: 1.5em;
+}
+
+/* line 229, css/scss/_typography.scss */
+code {
+  position: relative;
+  top: -0.2em;
+  padding: 3px;
+  font-family: Courier New, Courier, monospace;
+  font-size: 0.75893rem;
+  color: #747474;
+  line-height: 1em;
+  pointer-events: none;
+  border: 1px solid #DADADA;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 247, css/scss/_typography.scss */
+em, i, .italic {
+  font-style: italic;
+}
+
+/* line 251, css/scss/_typography.scss */
+strong, b, .bold {
+  font-weight: 800;
+}
+
+/* line 255, css/scss/_typography.scss */
+img {
+  display: block;
+  max-width: 100%;
+  margin: 30px 0;
+}
+
+/* line 6, css/scss/_badges.scss */
+body {
+  background: #645f4b;
+  overflow-x: hidden;
+  font-size: 1vw;
+}
+
+/* line 11, css/scss/_badges.scss */
+.badge {
+  display: inline-block;
+  width: 100%;
+  padding: 3% 0;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  /* line 11, css/scss/_badges.scss */
+  .badge {
+    width: 100%;
+  }
+}
+@media (min-width: 801px) {
+  /* line 11, css/scss/_badges.scss */
+  .badge {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 11, css/scss/_badges.scss */
+  .badge {
+    width: 24.7%;
+  }
+}
+/* line 25, css/scss/_badges.scss */
+.badge .badge-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: #7d7a67;
+  border: 3px solid #7d7a67;
+  padding: 10px;
+  width: 80%;
+  margin: 9% auto;
+}
+
+/* line 37, css/scss/_badges.scss */
+.boulder {
+  margin: 0 auto;
+  background: #B7B3B0;
+  width: 10rem;
+  height: 10rem;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+/* line 44, css/scss/_badges.scss */
+.boulder .shadow {
+  background: #333;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -15%;
+  margin: 0 auto;
+  right: -35%;
+}
+/* line 55, css/scss/_badges.scss */
+.boulder .inner-hex {
+  font-size: inherit;
+  background: #7C6B63;
+  width: 5em;
+  height: 5em;
+  z-index: 10;
+  margin: 0 auto;
+  position: relative;
+  opacity: 0.5;
+  top: 25%;
+  left: 0;
+  right: 0;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+/* line 69, css/scss/_badges.scss */
+.boulder .inner-hex .cutout-hex {
+  font-size: inherit;
+  width: 3em;
+  height: 3em;
+  background: #B7B3B0;
+  position: relative;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+/* line 83, css/scss/_badges.scss */
+.boulder .triangle {
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  width: 50%;
+  height: 50%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -50%;
+  transform-origin: bottom;
+  background: #444;
+}
+/* line 94, css/scss/_badges.scss */
+.boulder .top, .boulder .cascade .right, .cascade .boulder .right, .boulder .cascade .left, .cascade .boulder .left, .boulder .cascade .bottom, .cascade .boulder .bottom, .boulder .rainbow .top-right, .rainbow .boulder .top-right, .boulder .rainbow .right, .rainbow .boulder .right, .boulder .rainbow .bottom-right, .rainbow .boulder .bottom-right, .boulder .rainbow .bottom, .rainbow .boulder .bottom, .boulder .rainbow .bottom-left, .rainbow .boulder .bottom-left, .boulder .rainbow .left, .rainbow .boulder .left, .boulder .rainbow .top-left, .rainbow .boulder .top-left {
+  background: #b0aba8;
+  margin: 0 auto;
+  margin-top: -50%;
+}
+/* line 99, css/scss/_badges.scss */
+.boulder .top-right {
+  background: #a8a4a0;
+  transform: rotate(45deg);
+}
+/* line 103, css/scss/_badges.scss */
+.boulder .right, .boulder .cascade .left, .cascade .boulder .left {
+  background: #a19c98;
+  transform: rotate(90deg);
+}
+/* line 107, css/scss/_badges.scss */
+.boulder .bottom-right {
+  background: #9a9490;
+  transform: rotate(135deg);
+}
+/* line 111, css/scss/_badges.scss */
+.boulder .bottom {
+  background: #a19c98;
+  transform: rotate(180deg);
+}
+/* line 115, css/scss/_badges.scss */
+.boulder .bottom-left {
+  background: #a8a4a0;
+  transform: rotate(225deg);
+}
+/* line 119, css/scss/_badges.scss */
+.boulder .left {
+  background: #b0aba8;
+  transform: rotate(270deg);
+}
+/* line 123, css/scss/_badges.scss */
+.boulder .top-left {
+  transform: rotate(315deg);
+  background: #B7B3B0;
+}
+
+/* line 128, css/scss/_badges.scss */
+.cascade {
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+  -webkit-clip-path: polygon(50% 0, 20% 65%, 30% 90%, 50% 100%, 70% 90%, 80% 65%);
+  clip-path: polygon(50% 0, 20% 65%, 30% 90%, 50% 100%, 70% 90%, 80% 65%);
+}
+/* line 134, css/scss/_badges.scss */
+.cascade .top, .cascade .right, .cascade .left, .cascade .bottom, .cascade .rainbow .top-right, .rainbow .cascade .top-right, .cascade .rainbow .bottom-right, .rainbow .cascade .bottom-right, .cascade .rainbow .bottom-left, .rainbow .cascade .bottom-left, .cascade .rainbow .top-left, .rainbow .cascade .top-left {
+  -webkit-clip-path: polygon(50% 0%, 90% 60%, 50% 100%, 10% 60%);
+  clip-path: polygon(50% 0%, 90% 60%, 50% 100%, 10% 60%);
+  background: #eee;
+  width: 50%;
+  height: 60%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #8db2bb 50%, #59a6ae 50%);
+}
+/* line 143, css/scss/_badges.scss */
+.cascade .right, .cascade .left {
+  -webkit-clip-path: polygon(60% 0%, 100% 52%, 66% 100%, 0% 42%);
+  clip-path: polygon(60% 0%, 100% 52%, 66% 100%, 0% 42%);
+  background: #ffcc00;
+  height: 52%;
+  width: 30%;
+  position: relative;
+  top: -22%;
+  right: -15%;
+  background: linear-gradient(10deg, #2c98a2 54%, #3d9faa 50%);
+}
+/* line 155, css/scss/_badges.scss */
+.cascade .bottom {
+  -webkit-clip-path: polygon(50% -1%, 100% 75%, 50% 100%, 0% 75%);
+  clip-path: polygon(50% -1%, 100% 75%, 50% 100%, 0% 75%);
+  background: #333;
+  height: 40%;
+  width: 40%;
+  margin-top: -52%;
+  background: linear-gradient(90deg, #3d9faa 50%, #2a96a2 50%);
+}
+/* line 165, css/scss/_badges.scss */
+.cascade .left {
+  -webkit-clip-path: polygon(40% 0%, 100% 41%, 33% 100%, 0% 51%);
+  clip-path: polygon(40% 0%, 100% 41%, 33% 100%, 0% 51%);
+  right: 15%;
+  top: -61.5%;
+  background: linear-gradient(-10deg, #6fa8b3 54%, #87afb7 50%);
+}
+
+/* line 174, css/scss/_badges.scss */
+.thunder {
+  margin: 10% auto 17%;
+  width: 9rem;
+  height: 9rem;
+}
+/* line 178, css/scss/_badges.scss */
+.thunder .square {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, #d19922 50%, #cd8725 50%);
+  position: relative;
+  top: 0;
+}
+/* line 185, css/scss/_badges.scss */
+.thunder .bottom {
+  transform: rotate(45deg);
+  background: linear-gradient(90deg, #d19922 50%, #cd8725 50%);
+}
+/* line 189, css/scss/_badges.scss */
+.thunder .top, .thunder .cascade .right, .cascade .thunder .right, .thunder .cascade .left, .cascade .thunder .left, .thunder .cascade .bottom, .cascade .thunder .bottom, .thunder .rainbow .top-right, .rainbow .thunder .top-right, .thunder .rainbow .right, .rainbow .thunder .right, .thunder .rainbow .bottom-right, .rainbow .thunder .bottom-right, .thunder .rainbow .bottom, .rainbow .thunder .bottom, .thunder .rainbow .bottom-left, .rainbow .thunder .bottom-left, .thunder .rainbow .left, .rainbow .thunder .left, .thunder .rainbow .top-left, .rainbow .thunder .top-left {
+  margin-top: -100%;
+}
+/* line 191, css/scss/_badges.scss */
+.thunder .top .bottom-hex, .thunder .cascade .right .bottom-hex, .cascade .thunder .right .bottom-hex, .thunder .cascade .left .bottom-hex, .cascade .thunder .left .bottom-hex, .thunder .cascade .bottom .bottom-hex, .cascade .thunder .bottom .bottom-hex, .thunder .rainbow .top-right .bottom-hex, .rainbow .thunder .top-right .bottom-hex, .thunder .rainbow .right .bottom-hex, .rainbow .thunder .right .bottom-hex, .thunder .rainbow .bottom-right .bottom-hex, .rainbow .thunder .bottom-right .bottom-hex, .thunder .rainbow .bottom .bottom-hex, .rainbow .thunder .bottom .bottom-hex, .thunder .rainbow .bottom-left .bottom-hex, .rainbow .thunder .bottom-left .bottom-hex, .thunder .rainbow .left .bottom-hex, .rainbow .thunder .left .bottom-hex, .thunder .rainbow .top-left .bottom-hex, .rainbow .thunder .top-left .bottom-hex {
+  width: 8em;
+  height: 8em;
+  background: #BB5C30;
+  margin: 0 auto;
+  position: relative;
+  top: 0.5em;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+/* line 200, css/scss/_badges.scss */
+.thunder .top .bottom-hex .triangle, .thunder .cascade .right .bottom-hex .triangle, .cascade .thunder .right .bottom-hex .triangle, .thunder .cascade .left .bottom-hex .triangle, .cascade .thunder .left .bottom-hex .triangle, .thunder .cascade .bottom .bottom-hex .triangle, .cascade .thunder .bottom .bottom-hex .triangle, .thunder .rainbow .top-right .bottom-hex .triangle, .rainbow .thunder .top-right .bottom-hex .triangle, .thunder .rainbow .right .bottom-hex .triangle, .rainbow .thunder .right .bottom-hex .triangle, .thunder .rainbow .bottom-right .bottom-hex .triangle, .rainbow .thunder .bottom-right .bottom-hex .triangle, .thunder .rainbow .bottom .bottom-hex .triangle, .rainbow .thunder .bottom .bottom-hex .triangle, .thunder .rainbow .bottom-left .bottom-hex .triangle, .rainbow .thunder .bottom-left .bottom-hex .triangle, .thunder .rainbow .left .bottom-hex .triangle, .rainbow .thunder .left .bottom-hex .triangle, .thunder .rainbow .top-left .bottom-hex .triangle, .rainbow .thunder .top-left .bottom-hex .triangle {
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
+  width: 42%;
+  height: 50%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: -50%;
+  transform-origin: bottom;
+  background: #444;
+}
+/* line 211, css/scss/_badges.scss */
+.thunder .top .bottom-hex .top, .thunder .cascade .right .bottom-hex .top, .cascade .thunder .right .bottom-hex .top, .thunder .cascade .left .bottom-hex .top, .cascade .thunder .left .bottom-hex .top, .thunder .cascade .bottom .bottom-hex .top, .cascade .thunder .bottom .bottom-hex .top, .thunder .rainbow .top-right .bottom-hex .top, .rainbow .thunder .top-right .bottom-hex .top, .thunder .rainbow .right .bottom-hex .top, .rainbow .thunder .right .bottom-hex .top, .thunder .rainbow .cascade .left .bottom-hex .top, .rainbow .cascade .thunder .left .bottom-hex .top, .thunder .cascade .rainbow .left .bottom-hex .top, .cascade .rainbow .thunder .left .bottom-hex .top, .thunder .rainbow .bottom-right .bottom-hex .top, .rainbow .thunder .bottom-right .bottom-hex .top, .thunder .rainbow .bottom .bottom-hex .top, .rainbow .thunder .bottom .bottom-hex .top, .thunder .rainbow .bottom-left .bottom-hex .top, .rainbow .thunder .bottom-left .bottom-hex .top, .thunder .rainbow .left .bottom-hex .top, .rainbow .thunder .left .bottom-hex .top, .thunder .rainbow .top-left .bottom-hex .top, .rainbow .thunder .top-left .bottom-hex .top, .thunder .top .bottom-hex .cascade .right, .cascade .thunder .top .bottom-hex .right, .thunder .cascade .right .bottom-hex .right, .cascade .thunder .right .bottom-hex .right, .thunder .cascade .left .bottom-hex .right, .cascade .thunder .left .bottom-hex .right, .thunder .cascade .bottom .bottom-hex .right, .cascade .thunder .bottom .bottom-hex .right, .thunder .rainbow .top-right .bottom-hex .cascade .right, .cascade .thunder .rainbow .top-right .bottom-hex .right, .rainbow .thunder .top-right .bottom-hex .cascade .right, .cascade .rainbow .thunder .top-right .bottom-hex .right, .thunder .rainbow .right .bottom-hex .cascade .right, .cascade .thunder .rainbow .right .bottom-hex .right, .rainbow .thunder .right .bottom-hex .cascade .right, .cascade .rainbow .thunder .right .bottom-hex .right, .thunder .rainbow .cascade .left .bottom-hex .right, .rainbow .cascade .thunder .left .bottom-hex .right, .thunder .cascade .rainbow .left .bottom-hex .right, .cascade .rainbow .thunder .left .bottom-hex .right, .thunder .rainbow .bottom-right .bottom-hex .cascade .right, .cascade .thunder .rainbow .bottom-right .bottom-hex .right, .rainbow .thunder .bottom-right .bottom-hex .cascade .right, .cascade .rainbow .thunder .bottom-right .bottom-hex .right, .thunder .rainbow .bottom .bottom-hex .cascade .right, .cascade .thunder .rainbow .bottom .bottom-hex .right, .rainbow .thunder .bottom .bottom-hex .cascade .right, .cascade .rainbow .thunder .bottom .bottom-hex .right, .thunder .rainbow .bottom-left .bottom-hex .cascade .right, .cascade .thunder .rainbow .bottom-left .bottom-hex .right, .rainbow .thunder .bottom-left .bottom-hex .cascade .right, .cascade .rainbow .thunder .bottom-left .bottom-hex .right, .thunder .rainbow .left .bottom-hex .cascade .right, .cascade .thunder .rainbow .left .bottom-hex .right, .rainbow .thunder .left .bottom-hex .cascade .right, .cascade .rainbow .thunder .left .bottom-hex .right, .thunder .rainbow .top-left .bottom-hex .cascade .right, .cascade .thunder .rainbow .top-left .bottom-hex .right, .rainbow .thunder .top-left .bottom-hex .cascade .right, .cascade .rainbow .thunder .top-left .bottom-hex .right, .thunder .top .bottom-hex .cascade .left, .cascade .thunder .top .bottom-hex .left, .thunder .cascade .right .bottom-hex .left, .cascade .thunder .right .bottom-hex .left, .thunder .cascade .left .bottom-hex .left, .cascade .thunder .left .bottom-hex .left, .thunder .cascade .bottom .bottom-hex .left, .cascade .thunder .bottom .bottom-hex .left, .thunder .rainbow .top-right .bottom-hex .cascade .left, .cascade .thunder .rainbow .top-right .bottom-hex .left, .rainbow .thunder .top-right .bottom-hex .cascade .left, .cascade .rainbow .thunder .top-right .bottom-hex .left, .thunder .rainbow .right .bottom-hex .cascade .left, .cascade .thunder .rainbow .right .bottom-hex .left, .rainbow .thunder .right .bottom-hex .cascade .left, .cascade .rainbow .thunder .right .bottom-hex .left, .thunder .rainbow .cascade .left .bottom-hex .left, .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .cascade .rainbow .left .bottom-hex .left, .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .rainbow .bottom-right .bottom-hex .cascade .left, .cascade .thunder .rainbow .bottom-right .bottom-hex .left, .rainbow .thunder .bottom-right .bottom-hex .cascade .left, .cascade .rainbow .thunder .bottom-right .bottom-hex .left, .thunder .rainbow .bottom .bottom-hex .cascade .left, .cascade .thunder .rainbow .bottom .bottom-hex .left, .rainbow .thunder .bottom .bottom-hex .cascade .left, .cascade .rainbow .thunder .bottom .bottom-hex .left, .thunder .rainbow .bottom-left .bottom-hex .cascade .left, .cascade .thunder .rainbow .bottom-left .bottom-hex .left, .rainbow .thunder .bottom-left .bottom-hex .cascade .left, .cascade .rainbow .thunder .bottom-left .bottom-hex .left, .thunder .rainbow .left .bottom-hex .cascade .left, .cascade .thunder .rainbow .left .bottom-hex .left, .rainbow .thunder .left .bottom-hex .cascade .left, .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .rainbow .top-left .bottom-hex .cascade .left, .cascade .thunder .rainbow .top-left .bottom-hex .left, .rainbow .thunder .top-left .bottom-hex .cascade .left, .cascade .rainbow .thunder .top-left .bottom-hex .left, .thunder .top .bottom-hex .cascade .bottom, .cascade .thunder .top .bottom-hex .bottom, .thunder .cascade .right .bottom-hex .bottom, .cascade .thunder .right .bottom-hex .bottom, .thunder .cascade .left .bottom-hex .bottom, .cascade .thunder .left .bottom-hex .bottom, .thunder .cascade .bottom .bottom-hex .bottom, .cascade .thunder .bottom .bottom-hex .bottom, .thunder .rainbow .top-right .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .top-right .bottom-hex .bottom, .rainbow .thunder .top-right .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .top-right .bottom-hex .bottom, .thunder .rainbow .right .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .right .bottom-hex .bottom, .rainbow .thunder .right .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .right .bottom-hex .bottom, .thunder .rainbow .cascade .left .bottom-hex .bottom, .rainbow .cascade .thunder .left .bottom-hex .bottom, .thunder .cascade .rainbow .left .bottom-hex .bottom, .cascade .rainbow .thunder .left .bottom-hex .bottom, .thunder .rainbow .bottom-right .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .bottom-right .bottom-hex .bottom, .rainbow .thunder .bottom-right .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .bottom-right .bottom-hex .bottom, .thunder .rainbow .bottom .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .bottom .bottom-hex .bottom, .rainbow .thunder .bottom .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .bottom .bottom-hex .bottom, .thunder .rainbow .bottom-left .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .bottom-left .bottom-hex .bottom, .rainbow .thunder .bottom-left .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .bottom-left .bottom-hex .bottom, .thunder .rainbow .left .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .left .bottom-hex .bottom, .rainbow .thunder .left .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .left .bottom-hex .bottom, .thunder .rainbow .top-left .bottom-hex .cascade .bottom, .cascade .thunder .rainbow .top-left .bottom-hex .bottom, .rainbow .thunder .top-left .bottom-hex .cascade .bottom, .cascade .rainbow .thunder .top-left .bottom-hex .bottom, .thunder .top .bottom-hex .rainbow .top-right, .rainbow .thunder .top .bottom-hex .top-right, .thunder .cascade .right .bottom-hex .rainbow .top-right, .rainbow .thunder .cascade .right .bottom-hex .top-right, .cascade .thunder .right .bottom-hex .rainbow .top-right, .rainbow .cascade .thunder .right .bottom-hex .top-right, .thunder .cascade .left .bottom-hex .rainbow .top-right, .rainbow .thunder .cascade .left .bottom-hex .top-right, .cascade .thunder .left .bottom-hex .rainbow .top-right, .rainbow .cascade .thunder .left .bottom-hex .top-right, .thunder .cascade .bottom .bottom-hex .rainbow .top-right, .rainbow .thunder .cascade .bottom .bottom-hex .top-right, .cascade .thunder .bottom .bottom-hex .rainbow .top-right, .rainbow .cascade .thunder .bottom .bottom-hex .top-right, .thunder .rainbow .top-right .bottom-hex .top-right, .rainbow .thunder .top-right .bottom-hex .top-right, .thunder .rainbow .right .bottom-hex .top-right, .rainbow .thunder .right .bottom-hex .top-right, .thunder .rainbow .cascade .left .bottom-hex .top-right, .rainbow .cascade .thunder .left .bottom-hex .top-right, .thunder .cascade .rainbow .left .bottom-hex .top-right, .cascade .rainbow .thunder .left .bottom-hex .top-right, .thunder .rainbow .bottom-right .bottom-hex .top-right, .rainbow .thunder .bottom-right .bottom-hex .top-right, .thunder .rainbow .bottom .bottom-hex .top-right, .rainbow .thunder .bottom .bottom-hex .top-right, .thunder .rainbow .bottom-left .bottom-hex .top-right, .rainbow .thunder .bottom-left .bottom-hex .top-right, .thunder .rainbow .left .bottom-hex .top-right, .rainbow .thunder .left .bottom-hex .top-right, .thunder .rainbow .top-left .bottom-hex .top-right, .rainbow .thunder .top-left .bottom-hex .top-right, .thunder .top .bottom-hex .rainbow .right, .rainbow .thunder .top .bottom-hex .right, .thunder .cascade .right .bottom-hex .rainbow .right, .rainbow .thunder .cascade .right .bottom-hex .right, .cascade .thunder .right .bottom-hex .rainbow .right, .rainbow .cascade .thunder .right .bottom-hex .right, .thunder .cascade .left .bottom-hex .rainbow .right, .rainbow .thunder .cascade .left .bottom-hex .right, .cascade .thunder .left .bottom-hex .rainbow .right, .rainbow .cascade .thunder .left .bottom-hex .right, .thunder .cascade .bottom .bottom-hex .rainbow .right, .rainbow .thunder .cascade .bottom .bottom-hex .right, .cascade .thunder .bottom .bottom-hex .rainbow .right, .rainbow .cascade .thunder .bottom .bottom-hex .right, .thunder .rainbow .top-right .bottom-hex .right, .rainbow .thunder .top-right .bottom-hex .right, .thunder .rainbow .right .bottom-hex .right, .rainbow .thunder .right .bottom-hex .right, .thunder .rainbow .cascade .left .bottom-hex .right, .rainbow .cascade .thunder .left .bottom-hex .right, .thunder .cascade .rainbow .left .bottom-hex .right, .cascade .rainbow .thunder .left .bottom-hex .right, .thunder .rainbow .bottom-right .bottom-hex .right, .rainbow .thunder .bottom-right .bottom-hex .right, .thunder .rainbow .bottom .bottom-hex .right, .rainbow .thunder .bottom .bottom-hex .right, .thunder .rainbow .bottom-left .bottom-hex .right, .rainbow .thunder .bottom-left .bottom-hex .right, .thunder .rainbow .left .bottom-hex .right, .rainbow .thunder .left .bottom-hex .right, .thunder .rainbow .top-left .bottom-hex .right, .rainbow .thunder .top-left .bottom-hex .right, .thunder .top .bottom-hex .rainbow .cascade .left, .rainbow .cascade .thunder .top .bottom-hex .left, .thunder .rainbow .cascade .right .bottom-hex .left, .rainbow .thunder .cascade .right .bottom-hex .left, .rainbow .cascade .thunder .right .bottom-hex .left, .thunder .rainbow .cascade .left .bottom-hex .left, .rainbow .thunder .cascade .left .bottom-hex .left, .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .rainbow .cascade .bottom .bottom-hex .left, .rainbow .thunder .cascade .bottom .bottom-hex .left, .rainbow .cascade .thunder .bottom .bottom-hex .left, .thunder .rainbow .top-right .bottom-hex .cascade .left, .thunder .rainbow .cascade .top-right .bottom-hex .left, .rainbow .thunder .top-right .bottom-hex .cascade .left, .rainbow .cascade .thunder .top-right .bottom-hex .left, .thunder .rainbow .right .bottom-hex .cascade .left, .thunder .rainbow .cascade .right .bottom-hex .left, .rainbow .thunder .right .bottom-hex .cascade .left, .rainbow .cascade .thunder .right .bottom-hex .left, .thunder .rainbow .cascade .left .bottom-hex .left, .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .cascade .rainbow .left .bottom-hex .cascade .left, .thunder .cascade .rainbow .cascade .left .bottom-hex .left, .cascade .rainbow .thunder .left .bottom-hex .cascade .left, .cascade .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .rainbow .bottom-right .bottom-hex .cascade .left, .thunder .rainbow .cascade .bottom-right .bottom-hex .left, .rainbow .thunder .bottom-right .bottom-hex .cascade .left, .rainbow .cascade .thunder .bottom-right .bottom-hex .left, .thunder .rainbow .bottom .bottom-hex .cascade .left, .thunder .rainbow .cascade .bottom .bottom-hex .left, .rainbow .thunder .bottom .bottom-hex .cascade .left, .rainbow .cascade .thunder .bottom .bottom-hex .left, .thunder .rainbow .bottom-left .bottom-hex .cascade .left, .thunder .rainbow .cascade .bottom-left .bottom-hex .left, .rainbow .thunder .bottom-left .bottom-hex .cascade .left, .rainbow .cascade .thunder .bottom-left .bottom-hex .left, .thunder .rainbow .left .bottom-hex .cascade .left, .thunder .rainbow .cascade .left .bottom-hex .left, .rainbow .thunder .left .bottom-hex .cascade .left, .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .rainbow .top-left .bottom-hex .cascade .left, .thunder .rainbow .cascade .top-left .bottom-hex .left, .rainbow .thunder .top-left .bottom-hex .cascade .left, .rainbow .cascade .thunder .top-left .bottom-hex .left, .thunder .top .bottom-hex .cascade .rainbow .left, .cascade .rainbow .thunder .top .bottom-hex .left, .thunder .cascade .right .bottom-hex .rainbow .left, .thunder .cascade .rainbow .right .bottom-hex .left, .cascade .thunder .right .bottom-hex .rainbow .left, .cascade .rainbow .thunder .right .bottom-hex .left, .thunder .cascade .left .bottom-hex .rainbow .left, .thunder .cascade .rainbow .left .bottom-hex .left, .cascade .thunder .left .bottom-hex .rainbow .left, .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .cascade .bottom .bottom-hex .rainbow .left, .thunder .cascade .rainbow .bottom .bottom-hex .left, .cascade .thunder .bottom .bottom-hex .rainbow .left, .cascade .rainbow .thunder .bottom .bottom-hex .left, .thunder .cascade .rainbow .top-right .bottom-hex .left, .cascade .thunder .rainbow .top-right .bottom-hex .left, .cascade .rainbow .thunder .top-right .bottom-hex .left, .thunder .cascade .rainbow .right .bottom-hex .left, .cascade .thunder .rainbow .right .bottom-hex .left, .cascade .rainbow .thunder .right .bottom-hex .left, .thunder .rainbow .cascade .left .bottom-hex .rainbow .left, .thunder .rainbow .cascade .rainbow .left .bottom-hex .left, .rainbow .cascade .thunder .left .bottom-hex .rainbow .left, .rainbow .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .cascade .rainbow .left .bottom-hex .left, .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .cascade .rainbow .bottom-right .bottom-hex .left, .cascade .thunder .rainbow .bottom-right .bottom-hex .left, .cascade .rainbow .thunder .bottom-right .bottom-hex .left, .thunder .cascade .rainbow .bottom .bottom-hex .left, .cascade .thunder .rainbow .bottom .bottom-hex .left, .cascade .rainbow .thunder .bottom .bottom-hex .left, .thunder .cascade .rainbow .bottom-left .bottom-hex .left, .cascade .thunder .rainbow .bottom-left .bottom-hex .left, .cascade .rainbow .thunder .bottom-left .bottom-hex .left, .thunder .cascade .rainbow .left .bottom-hex .left, .cascade .thunder .rainbow .left .bottom-hex .left, .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .cascade .rainbow .top-left .bottom-hex .left, .cascade .thunder .rainbow .top-left .bottom-hex .left, .cascade .rainbow .thunder .top-left .bottom-hex .left, .thunder .top .bottom-hex .rainbow .bottom-right, .rainbow .thunder .top .bottom-hex .bottom-right, .thunder .cascade .right .bottom-hex .rainbow .bottom-right, .rainbow .thunder .cascade .right .bottom-hex .bottom-right, .cascade .thunder .right .bottom-hex .rainbow .bottom-right, .rainbow .cascade .thunder .right .bottom-hex .bottom-right, .thunder .cascade .left .bottom-hex .rainbow .bottom-right, .rainbow .thunder .cascade .left .bottom-hex .bottom-right, .cascade .thunder .left .bottom-hex .rainbow .bottom-right, .rainbow .cascade .thunder .left .bottom-hex .bottom-right, .thunder .cascade .bottom .bottom-hex .rainbow .bottom-right, .rainbow .thunder .cascade .bottom .bottom-hex .bottom-right, .cascade .thunder .bottom .bottom-hex .rainbow .bottom-right, .rainbow .cascade .thunder .bottom .bottom-hex .bottom-right, .thunder .rainbow .top-right .bottom-hex .bottom-right, .rainbow .thunder .top-right .bottom-hex .bottom-right, .thunder .rainbow .right .bottom-hex .bottom-right, .rainbow .thunder .right .bottom-hex .bottom-right, .thunder .rainbow .cascade .left .bottom-hex .bottom-right, .rainbow .cascade .thunder .left .bottom-hex .bottom-right, .thunder .cascade .rainbow .left .bottom-hex .bottom-right, .cascade .rainbow .thunder .left .bottom-hex .bottom-right, .thunder .rainbow .bottom-right .bottom-hex .bottom-right, .rainbow .thunder .bottom-right .bottom-hex .bottom-right, .thunder .rainbow .bottom .bottom-hex .bottom-right, .rainbow .thunder .bottom .bottom-hex .bottom-right, .thunder .rainbow .bottom-left .bottom-hex .bottom-right, .rainbow .thunder .bottom-left .bottom-hex .bottom-right, .thunder .rainbow .left .bottom-hex .bottom-right, .rainbow .thunder .left .bottom-hex .bottom-right, .thunder .rainbow .top-left .bottom-hex .bottom-right, .rainbow .thunder .top-left .bottom-hex .bottom-right, .thunder .top .bottom-hex .rainbow .bottom, .rainbow .thunder .top .bottom-hex .bottom, .thunder .cascade .right .bottom-hex .rainbow .bottom, .rainbow .thunder .cascade .right .bottom-hex .bottom, .cascade .thunder .right .bottom-hex .rainbow .bottom, .rainbow .cascade .thunder .right .bottom-hex .bottom, .thunder .cascade .left .bottom-hex .rainbow .bottom, .rainbow .thunder .cascade .left .bottom-hex .bottom, .cascade .thunder .left .bottom-hex .rainbow .bottom, .rainbow .cascade .thunder .left .bottom-hex .bottom, .thunder .cascade .bottom .bottom-hex .rainbow .bottom, .rainbow .thunder .cascade .bottom .bottom-hex .bottom, .cascade .thunder .bottom .bottom-hex .rainbow .bottom, .rainbow .cascade .thunder .bottom .bottom-hex .bottom, .thunder .rainbow .top-right .bottom-hex .bottom, .rainbow .thunder .top-right .bottom-hex .bottom, .thunder .rainbow .right .bottom-hex .bottom, .rainbow .thunder .right .bottom-hex .bottom, .thunder .rainbow .cascade .left .bottom-hex .bottom, .rainbow .cascade .thunder .left .bottom-hex .bottom, .thunder .cascade .rainbow .left .bottom-hex .bottom, .cascade .rainbow .thunder .left .bottom-hex .bottom, .thunder .rainbow .bottom-right .bottom-hex .bottom, .rainbow .thunder .bottom-right .bottom-hex .bottom, .thunder .rainbow .bottom .bottom-hex .bottom, .rainbow .thunder .bottom .bottom-hex .bottom, .thunder .rainbow .bottom-left .bottom-hex .bottom, .rainbow .thunder .bottom-left .bottom-hex .bottom, .thunder .rainbow .left .bottom-hex .bottom, .rainbow .thunder .left .bottom-hex .bottom, .thunder .rainbow .top-left .bottom-hex .bottom, .rainbow .thunder .top-left .bottom-hex .bottom, .thunder .top .bottom-hex .rainbow .bottom-left, .rainbow .thunder .top .bottom-hex .bottom-left, .thunder .cascade .right .bottom-hex .rainbow .bottom-left, .rainbow .thunder .cascade .right .bottom-hex .bottom-left, .cascade .thunder .right .bottom-hex .rainbow .bottom-left, .rainbow .cascade .thunder .right .bottom-hex .bottom-left, .thunder .cascade .left .bottom-hex .rainbow .bottom-left, .rainbow .thunder .cascade .left .bottom-hex .bottom-left, .cascade .thunder .left .bottom-hex .rainbow .bottom-left, .rainbow .cascade .thunder .left .bottom-hex .bottom-left, .thunder .cascade .bottom .bottom-hex .rainbow .bottom-left, .rainbow .thunder .cascade .bottom .bottom-hex .bottom-left, .cascade .thunder .bottom .bottom-hex .rainbow .bottom-left, .rainbow .cascade .thunder .bottom .bottom-hex .bottom-left, .thunder .rainbow .top-right .bottom-hex .bottom-left, .rainbow .thunder .top-right .bottom-hex .bottom-left, .thunder .rainbow .right .bottom-hex .bottom-left, .rainbow .thunder .right .bottom-hex .bottom-left, .thunder .rainbow .cascade .left .bottom-hex .bottom-left, .rainbow .cascade .thunder .left .bottom-hex .bottom-left, .thunder .cascade .rainbow .left .bottom-hex .bottom-left, .cascade .rainbow .thunder .left .bottom-hex .bottom-left, .thunder .rainbow .bottom-right .bottom-hex .bottom-left, .rainbow .thunder .bottom-right .bottom-hex .bottom-left, .thunder .rainbow .bottom .bottom-hex .bottom-left, .rainbow .thunder .bottom .bottom-hex .bottom-left, .thunder .rainbow .bottom-left .bottom-hex .bottom-left, .rainbow .thunder .bottom-left .bottom-hex .bottom-left, .thunder .rainbow .left .bottom-hex .bottom-left, .rainbow .thunder .left .bottom-hex .bottom-left, .thunder .rainbow .top-left .bottom-hex .bottom-left, .rainbow .thunder .top-left .bottom-hex .bottom-left, .thunder .top .bottom-hex .rainbow .left, .rainbow .thunder .top .bottom-hex .left, .thunder .cascade .right .bottom-hex .rainbow .left, .rainbow .thunder .cascade .right .bottom-hex .left, .cascade .thunder .right .bottom-hex .rainbow .left, .rainbow .cascade .thunder .right .bottom-hex .left, .thunder .cascade .left .bottom-hex .rainbow .left, .rainbow .thunder .cascade .left .bottom-hex .left, .cascade .thunder .left .bottom-hex .rainbow .left, .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .cascade .bottom .bottom-hex .rainbow .left, .rainbow .thunder .cascade .bottom .bottom-hex .left, .cascade .thunder .bottom .bottom-hex .rainbow .left, .rainbow .cascade .thunder .bottom .bottom-hex .left, .thunder .rainbow .top-right .bottom-hex .left, .rainbow .thunder .top-right .bottom-hex .left, .thunder .rainbow .right .bottom-hex .left, .rainbow .thunder .right .bottom-hex .left, .thunder .rainbow .cascade .left .bottom-hex .left, .rainbow .cascade .thunder .left .bottom-hex .left, .thunder .cascade .rainbow .left .bottom-hex .left, .cascade .rainbow .thunder .left .bottom-hex .left, .thunder .rainbow .bottom-right .bottom-hex .left, .rainbow .thunder .bottom-right .bottom-hex .left, .thunder .rainbow .bottom .bottom-hex .left, .rainbow .thunder .bottom .bottom-hex .left, .thunder .rainbow .bottom-left .bottom-hex .left, .rainbow .thunder .bottom-left .bottom-hex .left, .thunder .rainbow .left .bottom-hex .left, .rainbow .thunder .left .bottom-hex .left, .thunder .rainbow .top-left .bottom-hex .left, .rainbow .thunder .top-left .bottom-hex .left, .thunder .top .bottom-hex .rainbow .top-left, .rainbow .thunder .top .bottom-hex .top-left, .thunder .cascade .right .bottom-hex .rainbow .top-left, .rainbow .thunder .cascade .right .bottom-hex .top-left, .cascade .thunder .right .bottom-hex .rainbow .top-left, .rainbow .cascade .thunder .right .bottom-hex .top-left, .thunder .cascade .left .bottom-hex .rainbow .top-left, .rainbow .thunder .cascade .left .bottom-hex .top-left, .cascade .thunder .left .bottom-hex .rainbow .top-left, .rainbow .cascade .thunder .left .bottom-hex .top-left, .thunder .cascade .bottom .bottom-hex .rainbow .top-left, .rainbow .thunder .cascade .bottom .bottom-hex .top-left, .cascade .thunder .bottom .bottom-hex .rainbow .top-left, .rainbow .cascade .thunder .bottom .bottom-hex .top-left, .thunder .rainbow .top-right .bottom-hex .top-left, .rainbow .thunder .top-right .bottom-hex .top-left, .thunder .rainbow .right .bottom-hex .top-left, .rainbow .thunder .right .bottom-hex .top-left, .thunder .rainbow .cascade .left .bottom-hex .top-left, .rainbow .cascade .thunder .left .bottom-hex .top-left, .thunder .cascade .rainbow .left .bottom-hex .top-left, .cascade .rainbow .thunder .left .bottom-hex .top-left, .thunder .rainbow .bottom-right .bottom-hex .top-left, .rainbow .thunder .bottom-right .bottom-hex .top-left, .thunder .rainbow .bottom .bottom-hex .top-left, .rainbow .thunder .bottom .bottom-hex .top-left, .thunder .rainbow .bottom-left .bottom-hex .top-left, .rainbow .thunder .bottom-left .bottom-hex .top-left, .thunder .rainbow .left .bottom-hex .top-left, .rainbow .thunder .left .bottom-hex .top-left, .thunder .rainbow .top-left .bottom-hex .top-left, .rainbow .thunder .top-left .bottom-hex .top-left {
+  background: #af562d;
+  margin: 0 auto;
+  margin-top: -50%;
+}
+/* line 216, css/scss/_badges.scss */
+.thunder .top .bottom-hex .top-right, .thunder .cascade .right .bottom-hex .top-right, .cascade .thunder .right .bottom-hex .top-right, .thunder .cascade .left .bottom-hex .top-right, .cascade .thunder .left .bottom-hex .top-right, .thunder .cascade .bottom .bottom-hex .top-right, .cascade .thunder .bottom .bottom-hex .top-right, .thunder .rainbow .top-right .bottom-hex .top-right, .rainbow .thunder .top-right .bottom-hex .top-right, .thunder .rainbow .right .bottom-hex .top-right, .rainbow .thunder .right .bottom-hex .top-right, .thunder .rainbow .bottom-right .bottom-hex .top-right, .rainbow .thunder .bottom-right .bottom-hex .top-right, .thunder .rainbow .bottom .bottom-hex .top-right, .rainbow .thunder .bottom .bottom-hex .top-right, .thunder .rainbow .bottom-left .bottom-hex .top-right, .rainbow .thunder .bottom-left .bottom-hex .top-right, .thunder .rainbow .left .bottom-hex .top-right, .rainbow .thunder .left .bottom-hex .top-right, .thunder .rainbow .top-left .bottom-hex .top-right, .rainbow .thunder .top-left .bottom-hex .top-right {
+  background: #a3502a;
+  transform: rotate(45deg);
+}
+/* line 220, css/scss/_badges.scss */
+.thunder .top .bottom-hex .right, .thunder .cascade .right .bottom-hex .right, .cascade .thunder .right .bottom-hex .right, .thunder .cascade .left .bottom-hex .right, .cascade .thunder .left .bottom-hex .right, .thunder .cascade .bottom .bottom-hex .right, .cascade .thunder .bottom .bottom-hex .right, .thunder .rainbow .top-right .bottom-hex .right, .rainbow .thunder .top-right .bottom-hex .right, .thunder .rainbow .right .bottom-hex .right, .rainbow .thunder .right .bottom-hex .right, .thunder .rainbow .bottom-right .bottom-hex .right, .rainbow .thunder .bottom-right .bottom-hex .right, .thunder .rainbow .bottom .bottom-hex .right, .rainbow .thunder .bottom .bottom-hex .right, .thunder .rainbow .bottom-left .bottom-hex .right, .rainbow .thunder .bottom-left .bottom-hex .right, .thunder .rainbow .left .bottom-hex .right, .rainbow .thunder .left .bottom-hex .right, .thunder .rainbow .top-left .bottom-hex .right, .rainbow .thunder .top-left .bottom-hex .right, .thunder .top .bottom-hex .cascade .left, .cascade .thunder .top .bottom-hex .left, .thunder .cascade .right .bottom-hex .left, .cascade .thunder .right .bottom-hex .left, .thunder .cascade .left .bottom-hex .left, .cascade .thunder .left .bottom-hex .left, .thunder .cascade .bottom .bottom-hex .left, .cascade .thunder .bottom .bottom-hex .left, .thunder .rainbow .top-right .bottom-hex .cascade .left, .cascade .thunder .rainbow .top-right .bottom-hex .left, .rainbow .thunder .top-right .bottom-hex .cascade .left, .cascade .rainbow .thunder .top-right .bottom-hex .left, .thunder .rainbow .right .bottom-hex .cascade .left, .rainbow .thunder .right .bottom-hex .cascade .left, .thunder .rainbow .bottom-right .bottom-hex .cascade .left, .cascade .thunder .rainbow .bottom-right .bottom-hex .left, .rainbow .thunder .bottom-right .bottom-hex .cascade .left, .cascade .rainbow .thunder .bottom-right .bottom-hex .left, .thunder .rainbow .bottom .bottom-hex .cascade .left, .rainbow .thunder .bottom .bottom-hex .cascade .left, .thunder .rainbow .bottom-left .bottom-hex .cascade .left, .cascade .thunder .rainbow .bottom-left .bottom-hex .left, .rainbow .thunder .bottom-left .bottom-hex .cascade .left, .cascade .rainbow .thunder .bottom-left .bottom-hex .left, .thunder .rainbow .left .bottom-hex .cascade .left, .rainbow .thunder .left .bottom-hex .cascade .left, .thunder .rainbow .top-left .bottom-hex .cascade .left, .cascade .thunder .rainbow .top-left .bottom-hex .left, .rainbow .thunder .top-left .bottom-hex .cascade .left, .cascade .rainbow .thunder .top-left .bottom-hex .left {
+  background: #964a27;
+  transform: rotate(90deg);
+}
+/* line 224, css/scss/_badges.scss */
+.thunder .top .bottom-hex .bottom-right, .thunder .cascade .right .bottom-hex .bottom-right, .cascade .thunder .right .bottom-hex .bottom-right, .thunder .cascade .left .bottom-hex .bottom-right, .cascade .thunder .left .bottom-hex .bottom-right, .thunder .cascade .bottom .bottom-hex .bottom-right, .cascade .thunder .bottom .bottom-hex .bottom-right, .thunder .rainbow .top-right .bottom-hex .bottom-right, .rainbow .thunder .top-right .bottom-hex .bottom-right, .thunder .rainbow .right .bottom-hex .bottom-right, .rainbow .thunder .right .bottom-hex .bottom-right, .thunder .rainbow .bottom-right .bottom-hex .bottom-right, .rainbow .thunder .bottom-right .bottom-hex .bottom-right, .thunder .rainbow .bottom .bottom-hex .bottom-right, .rainbow .thunder .bottom .bottom-hex .bottom-right, .thunder .rainbow .bottom-left .bottom-hex .bottom-right, .rainbow .thunder .bottom-left .bottom-hex .bottom-right, .thunder .rainbow .left .bottom-hex .bottom-right, .rainbow .thunder .left .bottom-hex .bottom-right, .thunder .rainbow .top-left .bottom-hex .bottom-right, .rainbow .thunder .top-left .bottom-hex .bottom-right {
+  background: #8a4423;
+  transform: rotate(135deg);
+}
+/* line 228, css/scss/_badges.scss */
+.thunder .top .bottom-hex .bottom, .thunder .cascade .right .bottom-hex .bottom, .cascade .thunder .right .bottom-hex .bottom, .thunder .cascade .left .bottom-hex .bottom, .cascade .thunder .left .bottom-hex .bottom, .thunder .cascade .bottom .bottom-hex .bottom, .cascade .thunder .bottom .bottom-hex .bottom, .thunder .rainbow .top-right .bottom-hex .bottom, .rainbow .thunder .top-right .bottom-hex .bottom, .thunder .rainbow .right .bottom-hex .bottom, .rainbow .thunder .right .bottom-hex .bottom, .thunder .rainbow .bottom-right .bottom-hex .bottom, .rainbow .thunder .bottom-right .bottom-hex .bottom, .thunder .rainbow .bottom .bottom-hex .bottom, .rainbow .thunder .bottom .bottom-hex .bottom, .thunder .rainbow .bottom-left .bottom-hex .bottom, .rainbow .thunder .bottom-left .bottom-hex .bottom, .thunder .rainbow .left .bottom-hex .bottom, .rainbow .thunder .left .bottom-hex .bottom, .thunder .rainbow .top-left .bottom-hex .bottom, .rainbow .thunder .top-left .bottom-hex .bottom {
+  background: #964a27;
+  transform: rotate(180deg);
+}
+/* line 232, css/scss/_badges.scss */
+.thunder .top .bottom-hex .bottom-left, .thunder .cascade .right .bottom-hex .bottom-left, .cascade .thunder .right .bottom-hex .bottom-left, .thunder .cascade .left .bottom-hex .bottom-left, .cascade .thunder .left .bottom-hex .bottom-left, .thunder .cascade .bottom .bottom-hex .bottom-left, .cascade .thunder .bottom .bottom-hex .bottom-left, .thunder .rainbow .top-right .bottom-hex .bottom-left, .rainbow .thunder .top-right .bottom-hex .bottom-left, .thunder .rainbow .right .bottom-hex .bottom-left, .rainbow .thunder .right .bottom-hex .bottom-left, .thunder .rainbow .bottom-right .bottom-hex .bottom-left, .rainbow .thunder .bottom-right .bottom-hex .bottom-left, .thunder .rainbow .bottom .bottom-hex .bottom-left, .rainbow .thunder .bottom .bottom-hex .bottom-left, .thunder .rainbow .bottom-left .bottom-hex .bottom-left, .rainbow .thunder .bottom-left .bottom-hex .bottom-left, .thunder .rainbow .left .bottom-hex .bottom-left, .rainbow .thunder .left .bottom-hex .bottom-left, .thunder .rainbow .top-left .bottom-hex .bottom-left, .rainbow .thunder .top-left .bottom-hex .bottom-left {
+  background: #a3502a;
+  transform: rotate(225deg);
+}
+/* line 236, css/scss/_badges.scss */
+.thunder .top .bottom-hex .left, .thunder .cascade .right .bottom-hex .left, .cascade .thunder .right .bottom-hex .left, .thunder .cascade .left .bottom-hex .left, .cascade .thunder .left .bottom-hex .left, .thunder .cascade .bottom .bottom-hex .left, .cascade .thunder .bottom .bottom-hex .left, .thunder .rainbow .top-right .bottom-hex .left, .rainbow .thunder .top-right .bottom-hex .left, .thunder .rainbow .right .bottom-hex .left, .rainbow .thunder .right .bottom-hex .left, .thunder .rainbow .bottom-right .bottom-hex .left, .rainbow .thunder .bottom-right .bottom-hex .left, .thunder .rainbow .bottom .bottom-hex .left, .rainbow .thunder .bottom .bottom-hex .left, .thunder .rainbow .bottom-left .bottom-hex .left, .rainbow .thunder .bottom-left .bottom-hex .left, .thunder .rainbow .left .bottom-hex .left, .rainbow .thunder .left .bottom-hex .left, .thunder .rainbow .top-left .bottom-hex .left, .rainbow .thunder .top-left .bottom-hex .left {
+  background: #af562d;
+  transform: rotate(270deg);
+}
+/* line 240, css/scss/_badges.scss */
+.thunder .top .bottom-hex .top-left, .thunder .cascade .right .bottom-hex .top-left, .cascade .thunder .right .bottom-hex .top-left, .thunder .cascade .left .bottom-hex .top-left, .cascade .thunder .left .bottom-hex .top-left, .thunder .cascade .bottom .bottom-hex .top-left, .cascade .thunder .bottom .bottom-hex .top-left, .thunder .rainbow .top-right .bottom-hex .top-left, .rainbow .thunder .top-right .bottom-hex .top-left, .thunder .rainbow .right .bottom-hex .top-left, .rainbow .thunder .right .bottom-hex .top-left, .thunder .rainbow .bottom-right .bottom-hex .top-left, .rainbow .thunder .bottom-right .bottom-hex .top-left, .thunder .rainbow .bottom .bottom-hex .top-left, .rainbow .thunder .bottom .bottom-hex .top-left, .thunder .rainbow .bottom-left .bottom-hex .top-left, .rainbow .thunder .bottom-left .bottom-hex .top-left, .thunder .rainbow .left .bottom-hex .top-left, .rainbow .thunder .left .bottom-hex .top-left, .thunder .rainbow .top-left .bottom-hex .top-left, .rainbow .thunder .top-left .bottom-hex .top-left {
+  transform: rotate(315deg);
+  background: #BB5C30;
+}
+/* line 244, css/scss/_badges.scss */
+.thunder .top .bottom-hex .top-hex, .thunder .cascade .right .bottom-hex .top-hex, .cascade .thunder .right .bottom-hex .top-hex, .thunder .cascade .left .bottom-hex .top-hex, .cascade .thunder .left .bottom-hex .top-hex, .thunder .cascade .bottom .bottom-hex .top-hex, .cascade .thunder .bottom .bottom-hex .top-hex, .thunder .rainbow .top-right .bottom-hex .top-hex, .rainbow .thunder .top-right .bottom-hex .top-hex, .thunder .rainbow .right .bottom-hex .top-hex, .rainbow .thunder .right .bottom-hex .top-hex, .thunder .rainbow .bottom-right .bottom-hex .top-hex, .rainbow .thunder .bottom-right .bottom-hex .top-hex, .thunder .rainbow .bottom .bottom-hex .top-hex, .rainbow .thunder .bottom .bottom-hex .top-hex, .thunder .rainbow .bottom-left .bottom-hex .top-hex, .rainbow .thunder .bottom-left .bottom-hex .top-hex, .thunder .rainbow .left .bottom-hex .top-hex, .rainbow .thunder .left .bottom-hex .top-hex, .thunder .rainbow .top-left .bottom-hex .top-hex, .rainbow .thunder .top-left .bottom-hex .top-hex {
+  width: 5em;
+  height: 5em;
+  background: #BB5C30;
+  margin: 0 auto;
+  position: relative;
+  top: -2.5em;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+/* line 254, css/scss/_badges.scss */
+.thunder .top .bottom-hex .shadow, .thunder .cascade .right .bottom-hex .shadow, .cascade .thunder .right .bottom-hex .shadow, .thunder .cascade .left .bottom-hex .shadow, .cascade .thunder .left .bottom-hex .shadow, .thunder .cascade .bottom .bottom-hex .shadow, .cascade .thunder .bottom .bottom-hex .shadow, .thunder .rainbow .top-right .bottom-hex .shadow, .rainbow .thunder .top-right .bottom-hex .shadow, .thunder .rainbow .right .bottom-hex .shadow, .rainbow .thunder .right .bottom-hex .shadow, .thunder .rainbow .bottom-right .bottom-hex .shadow, .rainbow .thunder .bottom-right .bottom-hex .shadow, .thunder .rainbow .bottom .bottom-hex .shadow, .rainbow .thunder .bottom .bottom-hex .shadow, .thunder .rainbow .bottom-left .bottom-hex .shadow, .rainbow .thunder .bottom-left .bottom-hex .shadow, .thunder .rainbow .left .bottom-hex .shadow, .rainbow .thunder .left .bottom-hex .shadow, .thunder .rainbow .top-left .bottom-hex .shadow, .rainbow .thunder .top-left .bottom-hex .shadow {
+  background: #333;
+  opacity: 0.1;
+  transform: rotate(45deg);
+  height: 15em;
+  width: 8em;
+  position: relative;
+  top: -122%;
+  margin: 0 auto;
+  right: -35%;
+}
+
+/* line 269, css/scss/_badges.scss */
+.rainbow {
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+}
+/* line 273, css/scss/_badges.scss */
+.rainbow .top, .rainbow .top-right, .rainbow .right, .rainbow .bottom-right, .rainbow .bottom, .rainbow .bottom-left, .rainbow .left, .rainbow .top-left {
+  margin: 0 auto;
+  height: 50%;
+  width: 30%;
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 50% 100%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 50% 100%, 0% 30%);
+  background: linear-gradient(90deg, #b7384a 50%, #b43546 50%);
+}
+/* line 281, css/scss/_badges.scss */
+.rainbow .top-right {
+  transform: rotate(45deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #be5f2f 50%, #b8592d 50%);
+}
+/* line 288, css/scss/_badges.scss */
+.rainbow .right, .rainbow .cascade .left, .cascade .rainbow .left {
+  transform: rotate(90deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #cf9623 50%, #cb9222 50%);
+}
+/* line 295, css/scss/_badges.scss */
+.rainbow .bottom-right {
+  transform: rotate(135deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #67997c 50%, #70a88b 50%);
+}
+/* line 302, css/scss/_badges.scss */
+.rainbow .bottom {
+  transform: rotate(180deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #339a6f 50%, #33a276 50%);
+}
+/* line 309, css/scss/_badges.scss */
+.rainbow .bottom-left {
+  transform: rotate(225deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #88aab3 50%, #8db2bb 50%);
+}
+/* line 316, css/scss/_badges.scss */
+.rainbow .left {
+  transform: rotate(270deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #68879b 50%, #6a8aa0 50%);
+}
+/* line 323, css/scss/_badges.scss */
+.rainbow .top-left {
+  transform: rotate(315deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #af82a3 50%, #ac7d9f 50%);
+}
+/* line 330, css/scss/_badges.scss */
+.rainbow .center-flower {
+  width: 50%;
+  margin: -25% auto;
+  height: 50%;
+  transform: rotate(-45deg);
+  transform-origin: center;
+}
+/* line 336, css/scss/_badges.scss */
+.rainbow .center-flower .flower-top-left, .rainbow .center-flower .flower-top-right, .rainbow .center-flower .flower-bottom-right, .rainbow .center-flower .flower-bottom-left {
+  -webkit-clip-path: polygon(50% 100%, 100% 52%, 82% 0, 18% 0, 0 52%);
+  clip-path: polygon(50% 100%, 100% 52%, 82% 0, 18% 0, 0 52%);
+  background: #fff;
+  width: 50%;
+  height: 50%;
+  margin: 0 auto;
+  background: #dad6d3;
+}
+/* line 345, css/scss/_badges.scss */
+.rainbow .center-flower .flower-top-right {
+  transform: rotate(90deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #d3cecb 50%, #cdc8c4 50%);
+}
+/* line 352, css/scss/_badges.scss */
+.rainbow .center-flower .flower-bottom-right {
+  transform: rotate(180deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: #d2cdca;
+}
+/* line 359, css/scss/_badges.scss */
+.rainbow .center-flower .flower-bottom-left {
+  transform: rotate(270deg);
+  transform-origin: bottom;
+  margin-top: -50%;
+  background: linear-gradient(90deg, #d4ccca 50%, #d5d1ce 50%);
+}
+/* line 366, css/scss/_badges.scss */
+.rainbow .center-flower .flower-sqaure {
+  background: #333;
+  width: 40%;
+  height: 40%;
+  transform: rotate(45deg);
+  transform-origin: center;
+  margin: -20% auto;
+  background: linear-gradient(90deg, #c6c2bf 50%, #c2bdba 50%);
+}
+
+/* line 378, css/scss/_badges.scss */
+.marsh {
+  -webkit-clip-path: polygon(25% 0, 0 25%, 0 50%, 50% 100%, 100% 50%, 100% 25%, 75% 0, 50% 15%);
+  clip-path: polygon(25% 0, 0 25%, 0 50%, 50% 100%, 100% 50%, 100% 25%, 75% 0, 50% 15%);
+  background: #c099ab;
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+}
+/* line 385, css/scss/_badges.scss */
+.marsh .marsh-top, .marsh .marsh-top-right, .marsh .marsh-top-left, .marsh .marsh-right, .marsh .marsh-left, .marsh .marsh-bottom-right, .marsh .marsh-bottom-left, .marsh .marsh-bottom {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+  background: #c099ab;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* line 396, css/scss/_badges.scss */
+.marsh .marsh-top-right, .marsh .marsh-top-left {
+  top: -50%;
+  left: 25%;
+  width: 50%;
+  -webkit-clip-path: polygon(50% 0%, 100% 49%, 0% 100%);
+  clip-path: polygon(50% 0%, 100% 49%, 0% 100%);
+  background: #bc93a5;
+}
+/* line 405, css/scss/_badges.scss */
+.marsh .marsh-right, .marsh .marsh-left {
+  top: -75%;
+  left: 25%;
+  width: 50%;
+  -webkit-clip-path: polygon(0% 100%, 100% -3%, 100% 100%);
+  clip-path: polygon(0% 100%, 100% -3%, 100% 100%);
+  height: 25%;
+  background: #b3889b;
+}
+/* line 415, css/scss/_badges.scss */
+.marsh .marsh-bottom-right {
+  top: -75%;
+  left: 25%;
+  width: 50%;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+  height: 50%;
+  background: #aa798c;
+}
+/* line 425, css/scss/_badges.scss */
+.marsh .marsh-bottom-left {
+  top: -125%;
+  left: -25%;
+  width: 50%;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  height: 50%;
+  background: #bc93a5;
+}
+/* line 435, css/scss/_badges.scss */
+.marsh .marsh-bottom {
+  -webkit-clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  background: linear-gradient(90deg, #c6c2bf 50%, #c2bdba 50%);
+}
+/* line 441, css/scss/_badges.scss */
+.marsh .marsh-left {
+  transform: rotate(180deg);
+  transform-origin: left center;
+  top: -200%;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+  background: #c099ab;
+}
+/* line 450, css/scss/_badges.scss */
+.marsh .marsh-top-left {
+  transform: rotate(180deg);
+  transform-origin: left center;
+  top: -250%;
+  -webkit-clip-path: polygon(0% 0%, 100% 50%, 50% 100%);
+  clip-path: polygon(0% 0%, 100% 50%, 50% 100%);
+  background: #c39eaf;
+}
+/* line 459, css/scss/_badges.scss */
+.marsh .marsh-bottom {
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background: linear-gradient(90deg, #b88da0 50%, #9e6b7e 50%);
+  top: -250%;
+}
+/* line 466, css/scss/_badges.scss */
+.marsh .marsh-line {
+  height: 50%;
+  width: 3%;
+  border-radius: 50% 50% 0 0;
+  position: relative;
+  top: -300%;
+  margin: 0 auto;
+  background: #63363d;
+}
+
+/* line 477, css/scss/_badges.scss */
+.soul {
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+}
+/* line 481, css/scss/_badges.scss */
+.soul .soul-bottom-circle {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: linear-gradient(125deg, #d19922 50%, #ce9723 50%);
+}
+/* line 487, css/scss/_badges.scss */
+.soul .soul-top-circle {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: linear-gradient(125deg, #d19922 50%, #ce9723 50%);
+  border: 5px solid #cc8624;
+  margin-top: -81%;
+}
+
+/* line 497, css/scss/_badges.scss */
+.volcano {
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+  background: #b7384b;
+  -webkit-clip-path: polygon(50% 0, 35% 30%, 25% 25%, 15% 10%, 0 40%, 10% 55%, 0 65%, 10% 85%, 50% 100%, 90% 85%, 100% 65%, 90% 55%, 100% 40%, 85% 10%, 75% 25%, 65% 30%);
+  clip-path: polygon(50% 0, 35% 30%, 25% 25%, 15% 10%, 0 40%, 10% 55%, 0 65%, 10% 85%, 50% 100%, 90% 85%, 100% 65%, 90% 55%, 100% 40%, 85% 10%, 75% 25%, 65% 30%);
+}
+/* line 504, css/scss/_badges.scss */
+.volcano .volcano-top-half {
+  -webkit-clip-path: polygon(50% 100%, 100% 42%, 50% 0, 0 42%);
+  clip-path: polygon(50% 100%, 100% 42%, 50% 0, 0 42%);
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: #b43546;
+}
+/* line 513, css/scss/_badges.scss */
+.volcano .volcano-bottom-half .volcano-left, .volcano .volcano-bottom-half .volcano-right, .volcano .volcano-bottom-half .volcano-bottom-right, .volcano .volcano-bottom-half .volcano-bottom-left, .volcano .volcano-inner .volcano-bottom-half .volcano-right, .volcano .volcano-inner .volcano-bottom-half .volcano-bottom-right, .volcano .volcano-inner .volcano-bottom-half .volcano-bottom-left {
+  -webkit-clip-path: polygon(0% 13%, 100% 0%, 0% 100%, 0% 50%);
+  clip-path: polygon(0% 13%, 100% 0%, 0% 100%, 0% 50%);
+  background: #b13444;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 44%;
+  width: 50%;
+}
+/* line 523, css/scss/_badges.scss */
+.volcano .volcano-bottom-half .volcano-right {
+  transform: rotate(180deg);
+  transform-origin: top right;
+  -webkit-clip-path: polygon(0% 0%, 101% 100%, 0% 87%);
+  clip-path: polygon(0% 0%, 101% 100%, 0% 87%);
+  background: #a02b31;
+}
+/* line 531, css/scss/_badges.scss */
+.volcano .volcano-bottom-half .volcano-bottom-right {
+  -webkit-clip-path: polygon(0% 0%, 100% 70%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 70%, 0% 100%);
+  margin-top: -88%;
+  height: 50%;
+  left: 50%;
+  width: 40%;
+  background: #96282b;
+}
+/* line 541, css/scss/_badges.scss */
+.volcano .volcano-bottom-half .volcano-bottom-left {
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 70%);
+  clip-path: polygon(100% 0%, 100% 100%, 0% 70%);
+  margin-top: -50%;
+  height: 50%;
+  width: 40%;
+  left: 10%;
+  background: #ac323f;
+}
+/* line 552, css/scss/_badges.scss */
+.volcano .volcano-inner {
+  margin: 0 auto;
+  width: 3em;
+  height: 3em;
+  font-size: 1.2em;
+  background: #d19824;
+  -webkit-clip-path: polygon(50% 0, 35% 30%, 25% 25%, 15% 10%, 0 40%, 10% 55%, 0 65%, 10% 85%, 50% 100%, 90% 85%, 100% 65%, 90% 55%, 100% 40%, 85% 10%, 75% 25%, 65% 30%);
+  clip-path: polygon(50% 0, 35% 30%, 25% 25%, 15% 10%, 0 40%, 10% 55%, 0 65%, 10% 85%, 50% 100%, 90% 85%, 100% 65%, 90% 55%, 100% 40%, 85% 10%, 75% 25%, 65% 30%);
+  margin-top: -60%;
+}
+/* line 561, css/scss/_badges.scss */
+.volcano .volcano-inner .volcano-top-half {
+  -webkit-clip-path: polygon(50% 100%, 100% 42%, 50% 0, 0 42%);
+  clip-path: polygon(50% 100%, 100% 42%, 50% 0, 0 42%);
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  background: #cf9824;
+}
+/* line 570, css/scss/_badges.scss */
+.volcano .volcano-inner .volcano-bottom-half .volcano-left, .volcano .volcano-inner .volcano-bottom-half .volcano-right, .volcano .volcano-inner .volcano-bottom-half .volcano-bottom-right, .volcano .volcano-inner .volcano-bottom-half .volcano-bottom-left {
+  -webkit-clip-path: polygon(0% 13%, 100% 0%, 0% 100%, 0% 50%);
+  clip-path: polygon(0% 13%, 100% 0%, 0% 100%, 0% 50%);
+  background: #cb9420;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 44%;
+  width: 50%;
+}
+/* line 580, css/scss/_badges.scss */
+.volcano .volcano-inner .volcano-bottom-half .volcano-right {
+  transform: rotate(180deg);
+  transform-origin: top right;
+  -webkit-clip-path: polygon(0% -2%, 100% 95%, 0% 87%);
+  clip-path: polygon(0% -2%, 100% 95%, 0% 87%);
+  background: #bd831f;
+}
+/* line 588, css/scss/_badges.scss */
+.volcano .volcano-inner .volcano-bottom-half .volcano-bottom-right {
+  -webkit-clip-path: polygon(0% 0%, 100% 70%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 70%, 0% 100%);
+  margin-top: -88%;
+  height: 50%;
+  left: 50%;
+  width: 40%;
+  background: #b4771c;
+}
+/* line 598, css/scss/_badges.scss */
+.volcano .volcano-inner .volcano-bottom-half .volcano-bottom-left {
+  -webkit-clip-path: polygon(100% 0%, 100% 100%, 0% 70%);
+  clip-path: polygon(100% 0%, 100% 100%, 0% 70%);
+  margin-top: -50%;
+  height: 50%;
+  width: 40%;
+  left: 10%;
+  background: #c88e20;
+}
+
+/* line 611, css/scss/_badges.scss */
+.earth {
+  margin: 0 auto;
+  width: 10rem;
+  height: 10rem;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+/* line 618, css/scss/_badges.scss */
+.earth .earth-bottom-section .earth-bottom-section-1, .earth .earth-bottom-section .earth-bottom-section-2, .earth .earth-bottom-section .earth-bottom-section-3, .earth .earth-bottom-section .earth-bottom-section-4 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: linear-gradient(90deg, #77ae91 50%, #5c9373 50%);
+  width: 25%;
+  height: 25%;
+  margin: 0 auto;
+}
+/* line 626, css/scss/_badges.scss */
+.earth .earth-bottom-section .earth-bottom-section-2, .earth .earth-bottom-section .earth-bottom-section-3, .earth .earth-bottom-section .earth-bottom-section-4 {
+  -webkit-clip-path: polygon(50% 30%, 20% 0, 0% 20%, 0 61%, 50% 100%, 100% 60%, 100% 20%, 81% 0);
+  clip-path: polygon(50% 30%, 20% 0, 0% 20%, 0 61%, 50% 100%, 100% 60%, 100% 20%, 81% 0);
+  width: 50%;
+  margin-top: -8%;
+  background: linear-gradient(90deg, #72a789 50%, #579070 50%);
+}
+/* line 634, css/scss/_badges.scss */
+.earth .earth-bottom-section .earth-bottom-section-3, .earth .earth-bottom-section .earth-bottom-section-4 {
+  background: linear-gradient(90deg, #689d7f 50%, #4b8463 50%);
+  -webkit-clip-path: polygon(50% 30%, 14% 3%, 0% 20%, 0 61%, 50% 100%, 100% 60%, 100% 20%, 90% 0%);
+  clip-path: polygon(50% 30%, 14% 3%, 0% 20%, 0 61%, 50% 100%, 100% 60%, 100% 20%, 90% 0%);
+}
+/* line 640, css/scss/_badges.scss */
+.earth .earth-bottom-section .earth-bottom-section-4 {
+  width: 38%;
+  background: linear-gradient(90deg, #5b9474 50%, #407b5b 50%);
+  -webkit-clip-path: polygon(50% 31%, 10% 8%, 0% 20%, 0 61%, 50% 100%, 100% 60%, 100% 20%, 90% 7%);
+  clip-path: polygon(50% 31%, 10% 8%, 0% 20%, 0 61%, 50% 100%, 100% 60%, 100% 20%, 90% 7%);
+}
+/* line 649, css/scss/_badges.scss */
+.earth .earth-middle-section .earth-middle-section-1 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: linear-gradient(130deg, #c5c390 50%, #b6b072 50%);
+  width: 25%;
+  height: 55%;
+  margin: 0 auto;
+  margin-top: -45%;
+}
+/* line 658, css/scss/_badges.scss */
+.earth .earth-middle-section .earth-middle-section-2 {
+  width: 4%;
+  height: 60%;
+  background: #b6b072;
+  margin: 0 auto;
+  margin-top: -35%;
+}
+/* line 667, css/scss/_badges.scss */
+.earth .earth-top-section .earth-top-section-1, .earth .earth-top-section .earth-top-section-2 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: linear-gradient(130deg, #7aac91 50%, #498362 50%);
+  width: 15%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: -72%;
+}
+/* line 676, css/scss/_badges.scss */
+.earth .earth-top-section .earth-top-section-2 {
+  width: 8%;
+  height: 22%;
+  background: #589574;
+  margin-top: -31%;
+}

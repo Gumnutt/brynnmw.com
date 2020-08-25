@@ -1,0 +1,134 @@
+.form-wrapper{
+  width: 50%;
+  float:left;
+  .form-item{
+    label{
+      color: $contact-black;
+      display: block;
+      width: 100%;
+      float: left;
+      position:relative;
+      z-index: -1;
+    }
+    input{
+      color: $contact-black;
+      background: transparent;
+      border: none;
+      border-bottom: $contact-black solid 1px;
+      &:focus{
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+  }
+  .form-type-select{
+    padding:10px 10px 60px;
+    margin-top:-14px;
+    select {
+      font-family: inherit;
+      background-color: transparent;
+      width: 100%;
+      padding: 10px 0;
+      border: none;
+      border-bottom: 1px solid $contact-black;
+      //max-width:300px;
+    }
+
+    /* Remove focus */
+    select:focus {
+      outline: none}
+    /* Use custom arrow */
+    .mdl-selectfield select {appearance: none}
+    .mdl-selectfield {
+      position: relative;
+      &:after {
+        position: absolute;
+        top: 0.75em;
+        right: 0.5em;
+            /* Styling the down arrow */
+        width: 0;
+        height: 0;
+        padding: 0;
+        content: '';
+        border-left: .25em solid transparent;
+        border-right: .25em solid transparent;
+        border-top: .375em solid #ddd;
+        pointer-events: none;
+      }
+    }
+  }
+  input[type=submit]{
+    border:1px solid #ddd;
+    -webkit-appearance: button;
+    background: none;
+    max-width:100%;
+    @media(min-width:$screen-md-min){
+      max-width:50%;
+    }
+    &:hover{
+      background:#ddd;
+      color:#111;
+    }
+  }
+}
+.field--type-string, .field--type-email{
+  width: 100%;
+  display: inline-block;
+  padding: 0 10px;
+  float:left;
+  box-sizing:border-box;
+  @media(min-width:$screen-md-min){
+    width:50%;
+  }
+  label{
+    top: -50px;
+    opacity: 1;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+  input{
+    padding: 20px 0;
+    margin-bottom:20px;
+    width:100%;
+    &:focus ~ label, &:valid ~ label{
+      top: -90px;
+      color:#bdbdbd;
+      opacity: 0.5;
+    }
+  }
+}
+.field--type-string-long{
+  width:100%;
+  textarea{
+    width:100%;
+    height:300px;
+  }
+}
+.field--widget-options-buttons{
+  width:100%;
+  @media(min-width:$screen-md-min){
+    width:50%;
+  }
+  fieldset{
+    border: 0;
+    legend{}
+    .fieldset-wrapper{
+      .form-checkboxes{
+        .form-item{
+          display:block;
+          width:100%;
+          float:left;
+          input{
+            float: left;
+            margin:10px 0;
+          }
+          label{
+            width:auto;
+            padding:10px;
+            line-height:0.8;
+          }
+        }
+      }
+    }
+  }
+}

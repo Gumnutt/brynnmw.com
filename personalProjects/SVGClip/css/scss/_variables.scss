@@ -1,0 +1,41 @@
+//-------------------------------------------------container width option
+$container-xs  : 90%;
+$container-sm  : 768px;
+$container-md  : 992px;
+$container-lg  : 1170px;
+//-------------------------------------------------media queries options
+$screen-xs-min : 320px;
+$screen-sm-min : 768px;
+$screen-md-min : 992px;
+$screen-lg-min : 1170px;
+//-------------------------------------------------the grid
+$grid-columns: 12;
+$gutter: 20px;
+//-------------------------------------------------background color options
+
+$primary-color: #ffc425;
+$secondary-color: #0e3d51;
+$success-green: #0f9d58;
+$card-payment: #525a63;
+
+//-------------------------------------------------typography
+
+$font-size: 16px;
+$em: $font-size / 1em;
+
+//-------------------------------------------------slider
+
+$slider-height: 70vh;
+$inner-slider-height: 45vh;
+
+
+$color--green: #fff;
+$curve: cubic-bezier(0.650, 0.000, 0.450, 1.000);
+
+@mixin cf {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 497.5 497.5" xml:space="preserve">
+	<style type="text/css">
+		.svg-path{
+			fill:none;
+			stroke-miterlimit:10;
+			stroke-width:3px;
+		}
+		.dark{
+			stroke:#272727;
+		}
+		.light{
+			stroke:#efefef;
+		}
+		.detail{
+			stroke:#efefef;
+			stroke-width:2px;
+		}
+		.fill-animate{
+			animation-timing-function: ease-in-out;
+			animation-fill-mode: forwards;
+			animation-name: FillIn;
+			animation-duration: 1s;
+			animation-delay: 1s;
+			fill-opacity: 0;
+		}
+		.long-delay{
+			animation-delay: 2s;
+		}
+		.red{
+			fill:#fb4e3e;
+		}
+		.dark-fill{
+			fill:#272727;
+		}
+		.light-fill{
+		fill: #efefef;
+		}
+		@keyframes FillIn {
+		  from { fill-opacity: 0; }
+		  to { fill-opacity: 1; }
+		}
+	</style>
+	<!-- Circles -->
+	<circle class="svg-path dark fill-animate light-fill" cx="248.8" cy="248.8" r="248.3"/>
+	<circle class="svg-path dark fill-animate long-delay dark-fill" cx="248.8" cy="245.8" r="189.8"/>
+	<circle class="svg-path dark fill-animate light-fill" cx="248.8" cy="245.8" r="180.3"/>
+	<circle class="svg-path dark fill-animate light-fill" cx="248.8" cy="245.8" r="94.9"/>
+	<circle class="svg-path dark fill-animate light-fill" cx="248.8" cy="245.8" r="86.9"/>
+	<circle class="svg-path dark fill-animate light-fill" cx="248.8" cy="245.8" r="18.9"/>
+
+</svg>

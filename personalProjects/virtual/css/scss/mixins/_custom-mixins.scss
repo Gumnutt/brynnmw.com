@@ -1,0 +1,36 @@
+//------------------------------------------------------------General Functions
+@function set-color($color) {
+    @if (lightness($color) > 40) {
+      @return $virtual-contrast-color;
+    }
+    @else {
+      @return $virtual-black;
+    }
+}
+//------------------------------------------------------------General Mixins
+@mixin cover-image-background{
+  background-size: cover;
+  background-position:center center;
+}
+//------------------------------------------------------------Virtual page Mixins
+@mixin virtual-typograpghy{
+  font-family: 'Montserrat', sans-serif;
+  line-height:1.7;
+  color:inherit;
+}
+@mixin virtual-h2-style {
+  @include virtual-typograpghy;
+  font-weight: 500;
+  text-align:center;
+  text-transform:uppercase;
+  letter-spacing: $virtual-letter-spacing;
+  padding:10px 0;
+  border-bottom:1px solid currentColor;
+  margin:36px auto 24px;
+}
+@mixin virtual-p-style {
+  @include virtual-typograpghy;
+  font-weight: 300;
+  max-width: 700px;
+  margin:0 auto 16px;
+}

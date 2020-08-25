@@ -1,0 +1,9 @@
+.svgclip{
+  .clip-element {
+    clip-path: url(../../svg/pattern.svg);
+    background: #ffcc00;
+  }
+  svg{
+    display:none;
+  }
+}

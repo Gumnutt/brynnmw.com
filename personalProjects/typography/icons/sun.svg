@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%"
+	 height="100%" viewBox="0 0 59.75 59.75" enable-background="new 0 0 59.75 59.75" xml:space="preserve">
+<g id="sun">
+	<g>
+		<g>
+			<path fill="#fff" d="M29.875,44.375c-7.996,0-14.5-6.505-14.5-14.5s6.505-14.5,14.5-14.5s14.5,6.505,14.5,14.5
+				S37.871,44.375,29.875,44.375z M29.875,17.5c-6.823,0-12.375,5.551-12.375,12.375S23.052,42.25,29.875,42.25
+				S42.25,36.698,42.25,29.875S36.698,17.5,29.875,17.5z"/>
+		</g>
+		<g>
+			<g>
+				<rect x="28.812" fill="#fff" width="2.126" height="11.75"/>
+			</g>
+			<g>
+				<rect x="28.812" y="48" fill="#fff" width="2.126" height="11.75"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				
+					<rect x="7.029" y="11.842" transform="matrix(0.7071 0.7071 -0.7071 0.7071 12.9043 -5.3451)" fill="#fff" width="11.75" height="2.125"/>
+			</g>
+			<g>
+				
+					<rect x="40.971" y="45.783" transform="matrix(0.7071 0.7071 -0.7071 0.7071 46.8457 -19.4041)" fill="#fff" width="11.75" height="2.125"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				<rect y="28.812" fill="#fff" width="11.75" height="2.126"/>
+			</g>
+			<g>
+				<rect x="48" y="28.812" fill="#fff" width="11.75" height="2.126"/>
+			</g>
+		</g>
+		<g>
+			<g>
+				
+					<rect x="11.842" y="40.97" transform="matrix(0.7071 0.7071 -0.7071 0.7071 36.9042 4.5959)" fill="#fff" width="2.125" height="11.75"/>
+			</g>
+			<g>
+				
+					<rect x="45.783" y="7.029" transform="matrix(0.7071 0.7071 -0.7071 0.7071 22.8452 -29.3455)" fill="#fff" width="2.125" height="11.75"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Cloudy">
+</g>
+<g id="PartlyCloudy">
+</g>
+<g id="windy">
+</g>
+<g id="Rain">
+</g>
+<g id="Layer_7">
+</g>
+</svg>

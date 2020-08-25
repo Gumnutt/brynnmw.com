@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, nofollow">
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="HEX to RGB">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title>HEX to RGB Converter</title>
+  <link rel="stylesheet" href="site.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  
+  
+</head>
+<body id="body" class="body">
+  <a href="http://brynnmw.com/#personalProjects"><div class="content-back"><h2>Back to the Personal Projects</h2></div></a>
+    <div class="heading">
+    	<h1>colour converter</h1>
+      <p>Add a hex colour value to the hex field and it will convert it to rgb.</p>
+    </div>
+    <div id="wrap">
+        <input id="hex" type="text" placeholder="hex" autocomplete="off">
+        <input id="rgb" type="text" placeholder="rgb" autocomplete="off">
+    </div>
+    <script src="jquery.colourbrightness.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Target your element
+      $('body').colourBrightness();
+    });
+    </script>
+  <script src="site.js"></script>  
+</body>
+</html>

@@ -1,0 +1,137 @@
+.internal-menu{
+	background: #000;
+	.internal-menu-container{
+		display:none;
+		@media(min-width: $screen-md-min){
+			display:block;
+		}
+		height:auto;
+		float:left;
+		width:100%;
+		.menu-item{
+			h3{
+				color:#fff;
+				margin:0;
+				font-weight:bold;
+				margin-bottom:1em;
+				line-height: 50px;
+			}
+			ul{
+				margin:0;
+				margin-bottom:50px;
+				li{
+					color:#eee;
+					list-style:none;
+					font-weight:100;
+					a{
+						color:#eee;
+						text-decoration:none;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+		.internal-menu-btn-container{
+			padding:0;
+			.button-container{
+				width:100%;
+				.button{
+					width:100%;
+					margin:0;
+				}
+			}
+		}
+	}
+	.mobile-internal-menu{
+		.internal-menu-container{
+			height:auto;
+			float:left;
+			width:100%;
+			display:block;
+			@media(min-width: $screen-md-min){
+				display:none;
+			}
+			.mobile-menu-item{
+				h3{
+					color:#fff;
+					margin:0;
+					font-weight:bold;
+					margin-bottom:1em;
+					line-height: 50px;
+				}
+				ul{
+					margin:0;
+					margin-bottom:50px;
+					li{
+						color:#eee;
+						list-style:none;
+						font-weight:100;
+					}
+				}
+			}
+			.internal-menu-btn-container{
+				padding:0;
+				.button-container{
+					width:100%;
+					.button{
+						width:100%;
+						margin:0;
+					}
+				}
+			}
+		}
+		.internal-menu-closed{
+			height:50px;
+			overflow: hidden;
+		}
+	}
+	.internal-menu-closed{
+		height:50px;
+		overflow: hidden;
+	}
+}
+//---------- Menu Item Icons ---------\\
+
+.training-schedule, .online-store, .digital-kit-portal, .workshop-schedule, .update-details, .jobs-boards{
+	&:before{
+		font-family: FontAwesome;
+    font-size: 1em;
+    padding-right: 10px;
+    display: block;
+    float: left;
+    height: 28px;
+    clear: both;
+	}
+}
+.training-schedule{
+	&:before{
+		content:$fa-var-calendar;
+	}
+}
+.online-store{
+	&:before{
+		content:$fa-var-shopping-cart;
+	}
+}
+.digital-kit-portal{
+	&:before{
+		content:$fa-var-download;
+	}
+}
+.workshop-schedule{
+	&:before{
+		content:$fa-var-calendar;
+	}
+}
+.update-details{
+	&:before{
+		content:$fa-var-pencil;
+	}
+}
+.jobs-boards{
+	&:before{
+		content:$fa-var-thumb-tack;
+	}
+}
